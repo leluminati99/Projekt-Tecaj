@@ -1,0 +1,1270 @@
+body {
+  background-image: url(../slike/vecteezy_dark-blue-paper-background_1906847.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 2100px;
+  background-attachment: fixed;
+  background-position: center center;
+  z-index: 1000;
+}
+
+
+.content {
+  width: 80%;   
+  margin: 0 auto;
+  height: 1850px;
+  /* box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5); */
+  
+}
+
+section h2 {
+  padding-top: 200px;
+  text-align: center;
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight: 100;
+  font-style: oblique;
+  color: white;
+  
+} 
+
+.sva-zanimanja{
+  margin-top: 40px;
+  margin-left: 5%;
+  position: relative;
+  /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+  width: 90%;
+  height: 1450px;
+  border-radius: 10px;
+  display: flex
+}
+
+.slika-zanimanja {
+  height: 350px;
+  width: 550px;
+  border-radius: 25px;
+}
+
+.slika-racunalstvo {
+  width: 550px;
+}
+
+.elektrotehnicar, .tehnicar-za-racunalstvo, .tehnicar-za-mehatroniku, .tehnicar-za-elektroniku, .tehnicar-cestovnog-prometa, .vozac-motornih-vozila {
+  position: absolute;
+  display: inline-block;
+  height: 450px;
+  width: 49%;
+  text-align: center;
+}
+
+.elektrotehnicar {
+  left: 0;
+  
+}
+
+.tehnicar-za-racunalstvo {
+  right: 0;
+}
+
+.tehnicar-za-mehatroniku {
+left: 0;
+top: 500px;
+}
+
+.tehnicar-za-elektroniku {
+  right: 0;
+  top: 500px;
+}
+
+.tehnicar-cestovnog-prometa {
+  left: 0;
+  top: 1000px;
+}
+
+.vozac-motornih-vozila {
+  right: 0;
+  top: 1000px;
+}
+
+.naziv { 
+  display: inline-block;
+  text-decoration: none;
+  font: 25px bold;
+  color: black;
+  padding-top: 5px;
+  
+}
+
+
+@media screen and (max-width: 360.99px) {
+  body {
+    background-image: url(../slike/vecteezy_dark-blue-paper-background_1906847.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 2100px;
+    background-attachment: fixed;
+    background-position: center center;
+    z-index: 1000;
+  }
+  
+  
+  .content {
+    width: 80%;   
+    margin: 0 auto;
+    height: 1850px;
+    /* box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5); */
+    
+  }
+  
+  section h2 {
+    padding-top: 200px;
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-style: oblique;
+    color: white;
+    margin-top: 100px;
+    
+  } 
+  
+  .sva-zanimanja{
+    margin-top: 80px;
+    margin-left: 5%;
+    position: relative;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+    width: 100%;
+    height: 1450px;
+    border-radius: 10px;
+    display: block ;
+   
+
+  }
+  
+  .slika-zanimanja {
+    object-fit: contain;
+    height: 130px !important;
+    width: 200px;
+   
+    
+    
+  }
+
+  .elektrotehnicar, .tehnicar-za-racunalstvo, .tehnicar-za-mehatroniku, .tehnicar-za-elektroniku, .tehnicar-cestovnog-prometa, .vozac-motornih-vozila {
+    display: block;
+  }
+  
+  
+  .elektrotehnicar {
+    left: 20px;
+    
+  }
+  
+  .tehnicar-za-racunalstvo {
+    left: 20px;
+    top: 300px;
+  }
+  
+  .tehnicar-za-mehatroniku {
+  left: 20px;
+  top: 650px;
+  }
+  
+  .tehnicar-za-elektroniku {
+    left: 20px;
+    top: 1000px;
+  }
+  
+  .tehnicar-cestovnog-prometa {
+    left: 20px;
+    top: 1400px;
+  }
+  
+  .vozac-motornih-vozila {
+    left: 20px;
+    top: 1750px;
+  }
+
+  .naziv {
+    margin-left: 40px;
+    width: 120px;
+  }
+
+  .naziv-el {
+
+  }
+  
+  .naziv-rac {
+    margin-top: -10px;
+  }
+
+
+  .naziv-meh {
+
+  }
+
+  .naziv-elek {
+
+  }
+
+  .naziv-ces {
+
+  }
+
+  .naziv-vozac {
+
+  }
+
+  .footer-flex {
+    margin-top: 600px !important;
+    margin-left: 40px !important;
+  }
+  
+
+
+}
+
+
+@media  screen and (max-width:576.99px) and (min-width:361px) {
+
+  .logo-headline {
+    margin-left: 200px;
+   }
+  
+   .logo-picture {
+    margin-left: 100px;
+   }
+  
+    .headline {
+    
+      padding-right: 120px !important;
+      /* margin-left: -200px; */
+    }
+  
+    .head-menu {
+      margin-left: 150px !important;
+      
+    }
+
+  body {
+    background-image: url(../slike/vecteezy_dark-blue-paper-background_1906847.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 2100px;
+    background-attachment: fixed;
+    background-position: center center;
+    z-index: 1000;
+  }
+  
+  
+  .content {
+    width: 80%;   
+    margin: 0 auto;
+    height: 1850px;
+    /* box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5); */
+    
+  }
+  
+  section h2 {
+    padding-top: 300px;
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-style: oblique;
+    color: white;
+    margin-top: 100px;
+    
+  } 
+  
+  .sva-zanimanja{
+    margin-top: 80px;
+    margin-left: 5%;
+    position: relative;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+    width: 100%;
+    height: 1450px;
+    border-radius: 10px;
+    display: block ;
+   
+
+  }
+  
+  .slika-zanimanja {
+    object-fit: contain;
+    height: 200px !important;
+    width: 300px ;
+   
+    
+    
+  }
+
+  .elektrotehnicar, .tehnicar-za-racunalstvo, .tehnicar-za-mehatroniku, .tehnicar-za-elektroniku, .tehnicar-cestovnog-prometa, .vozac-motornih-vozila {
+    display: block;
+  }
+  
+  
+
+  .elektrotehnicar {
+    left: 60px;
+    
+  }
+  
+  .tehnicar-za-racunalstvo {
+    left: 60px;
+    top: 400px;
+  }
+  
+  .tehnicar-za-mehatroniku {
+  left: 60px;
+  top: 800px;
+  }
+  
+  .tehnicar-za-elektroniku {
+    left: 60px;
+    top: 1200px;
+  }
+  
+  .tehnicar-cestovnog-prometa {
+    left: 60px;
+    top: 1600px;
+  }
+  
+  .vozac-motornih-vozila {
+    left: 60px;
+    top: 2000px;
+  }
+
+  .naziv {
+    margin-left: 75px;
+    width: 120px;
+  }
+
+  .naziv-el {
+
+  }
+  
+  .naziv-rac {
+    /* margin-top: -10px; */
+  }
+
+
+  .naziv-meh {
+    margin-top: -15px;
+  }
+
+  .naziv-elek {
+    margin-top: -10px;
+  }
+
+  .naziv-ces {
+    margin-top: -5px;
+  }
+
+  .naziv-vozac {
+
+  }
+
+
+  .footer-flex {
+    margin-top: 950px !important;
+    margin-left: 120px !important;
+  }
+  
+
+
+}
+
+
+@media  screen and (max-width:768.99px) and (min-width:577px) {
+
+  .logo-headline {
+    margin-left: 420px;
+   }
+  
+   .logo-picture {
+    margin-left: 100px;
+   }
+  
+    .headline {
+    
+      padding-right: 120px !important;
+      /* margin-left: -200px; */
+    }
+  
+    .head-menu {
+      margin-left: 230px !important;
+      
+    }
+
+    .head-menu a {
+      width: 100px !important;
+    }
+
+  body {
+    background-image: url(../slike/vecteezy_dark-blue-paper-background_1906847.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 2100px;
+    background-attachment: fixed;
+    background-position: center center;
+    z-index: 1000;
+  }
+  
+  
+  .content {
+    width: 80%;   
+    margin: 0 auto;
+    height: 1850px;
+    /* box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5); */
+    
+  }
+  
+  section h2 {
+    padding-top: 550px;
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-style: oblique;
+    color: white;
+    margin-top: 100px;
+    
+  } 
+  
+  .sva-zanimanja{
+    margin-top: 120px;
+    margin-left: 5%;
+    position: relative;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+    width: 100%;
+    height: 1450px;
+    border-radius: 10px;
+    display: block ;
+   
+
+  }
+  
+  .slika-zanimanja {
+    object-fit: contain;
+    height: 300px !important;
+    width: 500px ;
+   
+    
+    
+  }
+
+  .elektrotehnicar, .tehnicar-za-racunalstvo, .tehnicar-za-mehatroniku, .tehnicar-za-elektroniku, .tehnicar-cestovnog-prometa, .vozac-motornih-vozila {
+    display: block;
+  }
+  
+  
+
+  .elektrotehnicar {
+    left: 30px;
+    
+  }
+  
+  .tehnicar-za-racunalstvo {
+    left: 30px;
+    top: 500px;
+  }
+  
+  .tehnicar-za-mehatroniku {
+  left: 30px;
+  top: 1000px;
+  }
+  
+  .tehnicar-za-elektroniku {
+    left: 30px;
+    top: 1500px;
+  }
+  
+  .tehnicar-cestovnog-prometa {
+    left: 30px;
+    top: 2000px;
+  }
+  
+  .vozac-motornih-vozila {
+    left: 30px;
+    top: 2500px;
+  }
+
+  .naziv {
+    margin-left: 180px;
+    width: 140px;
+  }
+
+  .naziv-el {
+
+  }
+  
+  .naziv-rac {
+    /* margin-top: -10px; */
+  }
+
+
+  .naziv-meh {
+    margin-top: -15px;
+  }
+
+  .naziv-elek {
+    margin-top: -10px;
+  }
+
+  .naziv-ces {
+    margin-top: -5px;
+  }
+
+  .naziv-vozac {
+
+  }
+
+  .footer-flex {
+    margin-top: 1900px !important;
+    margin-left: 170px !important;
+  }
+
+}
+
+
+@media screen and (max-width: 900.99px) and (min-width:769px) {
+
+  .logo-headline {
+    margin-left: 500px;
+   }
+  
+  .logo-picture {
+    margin-left: 100px;
+   }
+  
+  .headline {
+    
+      padding-right: 120px !important;
+      /* margin-left: -200px; */
+    }
+  
+  .head-menu {
+      margin-left: 280px !important;
+      
+    }
+
+  body {
+    background-image: url(../slike/vecteezy_dark-blue-paper-background_1906847.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 2100px;
+    background-attachment: fixed;
+    background-position: center center;
+    z-index: 1000;
+  }
+  
+  
+  .content {
+    width: 80%;   
+    margin: 0 auto;
+    height: 1850px;
+    /* box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5); */
+    
+  }
+  
+  section h2 {
+    padding-top: 550px;
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-style: oblique;
+    color: white;
+    margin-top: 100px;
+    
+  } 
+  
+  .sva-zanimanja{
+    margin-top: 120px;
+    margin-left: 5%;
+    position: relative;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+    width: 100%;
+    height: 1450px;
+    border-radius: 10px;
+    display: block ;
+   
+
+  }
+  
+  .slika-zanimanja {
+    object-fit: contain;
+    height: 400px !important;
+    width: 600px ;
+   
+    
+    
+  }
+
+  .elektrotehnicar, .tehnicar-za-racunalstvo, .tehnicar-za-mehatroniku, .tehnicar-za-elektroniku, .tehnicar-cestovnog-prometa, .vozac-motornih-vozila {
+    display: block;
+  }
+  
+  
+
+  .elektrotehnicar {
+    left: 30px;
+    
+  }
+  
+  .tehnicar-za-racunalstvo {
+    left: 30px;
+    top: 600px;
+  }
+  
+  .tehnicar-za-mehatroniku {
+  left: 30px;
+  top: 1200px;
+  }
+  
+  .tehnicar-za-elektroniku {
+    left: 30px;
+    top: 1800px;
+  }
+  
+  .tehnicar-cestovnog-prometa {
+    left: 30px;
+    top: 2400px;
+  }
+  
+  .vozac-motornih-vozila {
+    left: 30px;
+    top: 3000px;
+  }
+
+  .naziv {
+    margin-left: 220px;
+    width: 140px;
+  }
+
+  .naziv-el {
+
+  }
+  
+  .naziv-rac {
+    margin-top: -5px;
+  }
+
+
+  .naziv-meh {
+    margin-top: -40px;
+  }
+
+  .naziv-elek {
+    margin-top: -30px;
+  }
+
+  .naziv-ces {
+    margin-top: -30px;
+  }
+
+  .naziv-vozac {
+
+  }
+
+  
+
+  .footer-flex {
+    margin-top: 2500px !important;
+    margin-left: 250px !important;
+  }
+
+  
+
+}
+
+
+@media  screen and (max-width:1024.99px) and (min-width:901px) {
+  
+  .logo-headline {
+    margin-left: 550px;
+   }
+  
+   .logo-picture {
+    margin-left: 100px;
+   }
+  
+    .headline {
+    
+      padding-right: 120px !important;
+      /* margin-left: -200px; */
+    }
+  
+    .head-menu {
+      margin-left: 300px !important;
+      
+    }
+
+
+  body {
+    background-image: url(../slike/vecteezy_dark-blue-paper-background_1906847.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 2100px;
+    background-attachment: fixed;
+    background-position: center center;
+    z-index: 1000;
+  }
+  
+  
+  .content {
+    width: 80%;   
+    margin: 0 auto;
+    height: 1850px;
+    /* box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5); */
+    
+  }
+  
+  section h2 {
+    padding-top: 550px;
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-style: oblique;
+    color: white;
+    margin-top: 100px;
+    margin-left: -60px;
+    
+  } 
+  
+  .sva-zanimanja{
+    margin-top: 120px;
+    margin-left: 5%;
+    position: relative;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+    width: 100%;
+    height: 1450px;
+    border-radius: 10px;
+    display: block ;
+   
+
+  }
+  
+  .slika-zanimanja {
+    object-fit: contain;
+    height: 450px !important;
+    width: 650px ;
+   
+    
+    
+  }
+
+  .elektrotehnicar, .tehnicar-za-racunalstvo, .tehnicar-za-mehatroniku, .tehnicar-za-elektroniku, .tehnicar-cestovnog-prometa, .vozac-motornih-vozila {
+    display: block;
+  }
+  
+  
+
+  .elektrotehnicar {
+    left: 60px;
+    
+  }
+  
+  .tehnicar-za-racunalstvo {
+    left: 60px;
+    top: 650px;
+  }
+  
+  .tehnicar-za-mehatroniku {
+  left: 60px;
+  top: 1300px;
+  }
+  
+  .tehnicar-za-elektroniku {
+    left: 60px;
+    top: 1950px;
+  }
+  
+  .tehnicar-cestovnog-prometa {
+    left: 60px;
+    top: 2600px;
+  }
+  
+  .vozac-motornih-vozila {
+    left: 60px;
+    top: 3250px;
+  }
+
+  .naziv {
+    margin-left: 180px;
+    font-size: 28px;
+  }
+
+  .naziv-el {
+   margin-top: 20px;
+  }
+  
+  .naziv-rac {
+    margin-top: 20px;
+    width: 280px;
+  }
+
+
+  .naziv-meh {
+    margin-top: -40px;
+    width: 280px;
+  }
+
+  .naziv-elek {
+    margin-top: -30px;
+    width: 280px;
+  }
+
+  .naziv-ces {
+    margin-top: -30px;
+    width: 320px;
+  }
+
+  .naziv-vozac {
+    width: 260px;  
+    margin-top: 40px;
+
+  }
+
+  .footer-flex {
+    margin-top: 1800px;
+    margin-left: 280px;
+  }
+
+
+
+}
+
+
+@media  screen and (max-width:1200.99px) and (min-width:1025px) {
+  
+  .logo-headline {
+    margin-left: 800px;
+   }
+  
+   .logo-picture {
+    margin-left: 100px;
+   }
+  
+    .headline {
+    
+      padding-right: 120px !important;
+      /* margin-left: -200px; */
+    }
+  
+    .head-menu {
+      margin-left: -80px !important;
+      
+    }
+  
+  body {
+    background-image: url(../slike/vecteezy_dark-blue-paper-background_1906847.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 2100px;
+    background-attachment: fixed;
+    background-position: center center;
+    z-index: 1000;
+  }
+  
+  
+  .content {
+    width: 80%;   
+    margin: 0 auto;
+    height: 1850px;
+    /* box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5); */
+    
+  }
+  
+  section h2 {
+    padding-top: 200px;
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-style: oblique;
+    color: white;
+    margin-top: 100px;
+    margin-left: -50px;
+    
+  } 
+  
+  .sva-zanimanja{
+    margin-top: 120px;
+    margin-left: 5%;
+    position: relative;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+    width: 100%;
+    height: 1450px;
+    border-radius: 10px;
+    display: block ;
+   
+
+  }
+  
+  .slika-zanimanja {
+    object-fit: contain;
+    height: 400px !important;
+    width: 700px ;
+   
+    
+    
+  }
+
+  .elektrotehnicar, .tehnicar-za-racunalstvo, .tehnicar-za-mehatroniku, .tehnicar-za-elektroniku, .tehnicar-cestovnog-prometa, .vozac-motornih-vozila {
+    display: block;
+  }
+  
+  
+
+  .elektrotehnicar {
+    left: 100px;
+    
+  }
+  
+  .tehnicar-za-racunalstvo {
+    left: 100px;
+    top: 700px;
+  }
+  
+  .tehnicar-za-mehatroniku {
+  left: 100px;
+  top: 1400px;
+  }
+  
+  .tehnicar-za-elektroniku {
+    left: 100px;
+    top: 2100px;
+  }
+  
+  .tehnicar-cestovnog-prometa {
+    left: 100px;
+    top: 2800px;
+  }
+  
+  .vozac-motornih-vozila {
+    left: 100px;
+    top: 3500px;
+  }
+
+  .naziv {
+    margin-left: 220px;
+    font-size: 28px;
+  }
+
+  .naziv-el {
+   margin-top: 20px;
+  }
+  
+  .naziv-rac {
+    margin-top: 20px;
+    width: 280px;
+  }
+
+
+  .naziv-meh {
+    margin-top:10 ;
+    width: 280px;
+  }
+
+  .naziv-elek {
+    margin-top: 20px;
+    width: 280px;
+  }
+
+  .naziv-ces {
+    margin-top: 20px;
+    width: 320px;
+  }
+
+  .naziv-vozac {
+    width: 260px;  
+    margin-top: 20px;
+
+  }
+
+  .footer-flex {
+    margin-top: 2700px !important;
+    margin-left: 350px;
+  }
+
+  .korisni-linkovi {
+    width: 300px !important; 
+  }
+
+
+}
+
+
+@media  screen and (max-width:1440.99px) and (min-width:1201px) {
+
+  .logo-headline {
+    margin-left: 983px;
+   }
+  
+   .logo-picture {
+    margin-left: 70px !important;
+   }
+  
+    .headline {
+    
+      padding-right: 120px !important;
+      /* margin-left: -200px; */
+    }
+  
+    .head-menu  {
+      /* margin-left: -500px; */
+      width: 100%;
+      
+    }
+
+  body {
+    background-image: url(../slike/vecteezy_dark-blue-paper-background_1906847.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 2100px;
+    background-attachment: fixed;
+    background-position: center center;
+    z-index: 1000;
+  }
+  
+  
+  .content {
+    width: 80%;   
+    margin: 0 auto;
+    height: 1850px;
+    /* box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5); */
+    
+  }
+  
+  section h2 {
+    padding-top: 200px;
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-style: oblique;
+    color: white;
+    margin-top: 100px;
+    margin-left: -50px;
+    
+  } 
+  
+  .sva-zanimanja{
+    margin-top: 120px;
+    margin-left: 5%;
+    position: relative;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+    width: 100%;
+    height: 1450px;
+    border-radius: 10px;
+    display: block ;
+   
+
+  }
+  
+  .slika-zanimanja {
+    object-fit: contain;
+    height: 500px !important;
+    width: 750px ;
+   
+    
+    
+  }
+
+  .elektrotehnicar, .tehnicar-za-racunalstvo, .tehnicar-za-mehatroniku, .tehnicar-za-elektroniku, .tehnicar-cestovnog-prometa, .vozac-motornih-vozila {
+    position: relative;
+    display: inline-block;
+  
+    margin-top: 100px;
+   
+    width: 49%;
+    float: none;
+  }
+  
+  
+
+  .elektrotehnicar {
+    height: 610px;
+   left: -100px !important;
+    
+  }
+  
+  .tehnicar-za-racunalstvo {
+    right: 170px;
+    top: 700px;
+  }
+  
+  .tehnicar-za-mehatroniku {
+  left: -100px !important;
+  top: 600px;
+  height: 500px;
+  }
+
+  .tehnicar-za-mehatroniku img {
+    height: 420px !important;
+  }
+  
+  .tehnicar-za-elektroniku {
+    right: 170px;
+    top: 1200px;
+  }
+  
+  .tehnicar-za-elektroniku img {
+    height: 420px !important;
+
+  }
+
+  .tehnicar-cestovnog-prometa  {
+    left: -100px !important;
+    top: 1100px;
+  }
+
+  .tehnicar-cestovnog-prometa img {
+    height: 400px !important;
+  }
+  
+  .vozac-motornih-vozila {
+    right:170px;
+    top: 1800px;
+  }
+
+  .naziv {
+    margin-left: 220px;
+    font-size: 28px;
+  }
+
+  .naziv-el {
+   margin-top: 20px;
+  }
+  
+  .naziv-rac {
+    margin-top: 20px;
+    width: 280px;
+  }
+
+
+  .naziv-meh {
+    margin-top:10 ;
+    width: 280px;
+  }
+
+  .naziv-elek {
+    margin-top: 20px;
+    width: 280px;
+  }
+
+  .naziv-ces {
+    margin-top: 20px;
+    width: 320px;
+  }
+
+  .naziv-vozac {
+    width: 260px;  
+    margin-top: 20px;
+
+  }
+
+  .footer-flex {
+    margin-top: 2700px !important;
+    margin-left: 350px;
+  }
+
+  .korisni-linkovi {
+    width: 300px !important; 
+  }
+
+  .footer-flex {
+    margin-left: 0 !important;
+    display: inline-block !important;
+    margin-top: 1500px;
+    margin-left: 280px;
+  }
+  
+  .skola-info, .strucne-sluzbe, .korisni-linkovi {
+    font-size: 16px;
+    position: absolute;
+    width: 400px;
+  }
+
+  .skola-info h3, .strucne-sluzbe h3, .korisni-linkovi h3 {
+    font-size: 22px;
+  }
+
+  .skola-info  {
+    /* margin-left: -1000px; */
+    /* bottom: 140px; */
+    left: 0;
+    
+    
+  }
+
+  .h3-skola-info {
+    margin-left: 15px;
+    
+  }
+
+ .strucne-sluzbe {
+    
+    margin-left: 150px !important; 
+    bottom: 70px;
+    left: 400px;
+  }
+
+  .h3-strucne-sluzbe {
+    margin-left: -250px;
+  
+
+  }
+
+  .korisni-linkovi {
+    margin-left: 40px;
+    padding-bottom: 50px;
+    bottom: 88px;
+    left: 830px;
+  }
+
+  .h3-korisni-linkovi {
+    margin-left: -35px;
+  }
+
+
+}
+
+
+@media  screen and (max-width:1600.99px) and (min-width:1441px) {
+
+  .logo-headline {
+    margin-left: -30px;
+  }
+   .logo-picture {
+    margin-left: 70px !important;
+   }
+  
+    .headline {
+    
+      padding-right: 120px !important;
+      /* margin-left: -200px; */
+    }
+  
+    .head-menu  {
+      /* margin-left: -500px; */
+      width: 100%;
+      
+    }
+
+    .elektrotehnicar, .tehnicar-za-racunalstvo, .tehnicar-za-mehatroniku, .tehnicar-za-elektroniku, .tehnicar-cestovnog-prometa, .vozac-motornih-vozila {
+      margin-bottom: 30px;
+    
+    }
+  
+
+} 
+
+
+
+
+
+

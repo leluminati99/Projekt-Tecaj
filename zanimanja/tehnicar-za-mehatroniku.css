@@ -1,0 +1,67 @@
+body {
+  background-image: url(../slike/vecteezy_dark-blue-paper-background_1906847.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 2200px;
+  background-attachment: fixed;
+  background-position: center center;
+  z-index: 1000;
+}
+
+
+.content {
+  width: 80%;   
+  margin: 0 auto;
+  height: 2100px;
+  /* box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5); */
+  
+}
+
+section h2 {
+  padding-top: 200px;
+  text-align: center;
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight: 100;
+  font-style: oblique;
+  color: white;
+  
+} 
+
+.tehnicar-za-mehatroniku-info{
+  margin-top: 40px;
+  margin-left: 5%;
+  position: relative;
+  /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+  width: 90%;
+  height: 1450px;
+  border-radius: 10px;
+}
+
+.tehnicar-za-mehatroniku-info p {
+  font-size: 20px;
+  line-height: 22px;
+}
+
+.odlomak {
+ padding-top: 30px;
+ padding-left: 20px;
+ padding-right: 10px;
+ color: white;
+}
+
+.predmet {
+  text-decoration: none;
+  color: rgb(139, 139, 238);
+}
+
+.slika {
+  width: 70%;
+  padding-left: 15%;
+  padding-top: 50px;
+  border-radius: 200px;
+}
+
+
+
+

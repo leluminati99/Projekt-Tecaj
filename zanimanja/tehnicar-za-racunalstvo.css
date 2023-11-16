@@ -1,0 +1,889 @@
+body {
+  background-image: url(../slike/vecteezy_dark-blue-paper-background_1906847.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 2200px;
+  background-attachment: fixed;
+  background-position: center center;
+  z-index: 1000;
+}
+
+
+.content {
+  width: 80%;   
+  margin: 0 auto;
+  height: 2100px;
+  /* box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5); */
+  
+}
+
+section h2 {
+  padding-top: 200px;
+  text-align: center;
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight: 100;
+  font-style: oblique;
+  color: white;
+  
+} 
+
+.tehnicar-za-racunalstvo-info{
+  margin-top: 40px;
+  margin-left: 5%;
+  position: relative;
+  /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+  width: 90%;
+  height: 1450px;
+  border-radius: 10px;
+}
+
+.tehnicar-za-racunalstvo-info p {
+  font-size: 20px;
+  line-height: 22px;
+}
+
+.odlomak {
+ padding-top: 30px;
+ padding-left: 20px;
+ padding-right: 10px;
+ color: white;
+}
+
+.odlomak-dva {
+  color: rgb(19, 16, 16);
+  font-weight: bold;
+}
+
+
+
+.predmet {
+  text-decoration: none;
+  color: rgb(139, 139, 238);
+}
+
+
+li {
+  font-size: 18px;
+  padding-left: 5px;
+  color: white;
+}
+li:nth-child(1) {
+  padding-top: 10px;
+}
+
+.slika {
+  width: 70%;
+  margin-top: 100px;
+  margin-left: 200px;
+  border-radius: 100px;
+}
+
+@media screen and (max-width: 360.99px) {
+
+  body {
+    background-image: url(../slike/vecteezy_dark-blue-paper-background_1906847.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 2200px;
+    background-attachment: fixed;
+    background-position: center center;
+    z-index: 1000;
+  }
+  
+  
+  .content {
+    width: 80%;   
+    margin: 0 auto;
+    height: 2100px;
+    /* box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5); */
+    
+  }
+  
+  section h2 {
+    padding-top: 300px;
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-style: oblique;
+    color: white;
+    
+  } 
+  
+  .tehnicar-za-racunalstvo-info{
+    margin-top: 80px;
+    margin-left: 5%;
+    position: relative;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+    width: 90%;
+    height: 1450px;
+    border-radius: 10px;
+  }
+  
+  .tehnicar-za-racunalstvo-info p {
+    font-size: 20px;
+    line-height: 22px;
+  }
+  
+  .odlomak {
+    padding-top: 30px;
+    margin-left: -20px;
+    padding-right: 10px;
+    color: white;
+    width: 210px !important;
+  }
+  
+  .odlomak-dva {
+    color: rgb(19, 16, 16);
+    font-weight: bold;
+  }
+  
+  
+  
+  .predmet {
+    text-decoration: none;
+    color: rgb(139, 139, 238);
+  }
+  
+  
+  li {
+    font-size: 18px;
+    padding-left: 5px;
+    color: white;
+    padding-top: 20px;
+  }
+  li:nth-child(1) {
+    padding-top: 20px;
+  }
+  
+  .slika {
+    object-fit: contain;
+    width: 70%;
+    margin-top: 80px;
+    margin-left: -20px;
+    height: 240px !important;
+    width: 240px !important;
+  }
+
+  .footer-flex {
+    margin-top: 1300px !important;
+    margin-left: 0px;
+
+  }
+
+
+}
+
+
+@media screen and (max-width: 576.99px) and (min-width:361px) {
+
+  .logo-headline {
+    margin-left: 200px;
+   }
+  
+   .logo-picture {
+    margin-left: 100px;
+   }
+  
+    .headline {
+    
+      padding-right: 120px !important;
+      /* margin-left: -200px; */
+    }
+  
+    .head-menu {
+      margin-left: 150px !important;
+      
+    }
+
+  body {
+    background-image: url(../slike/vecteezy_dark-blue-paper-background_1906847.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 2200px;
+    background-attachment: fixed;
+    background-position: center center;
+    z-index: 1000;
+  }
+  
+  
+  .content {
+    width: 80%;   
+    margin: 0 auto;
+    height: 2100px;
+    /* box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5); */
+    
+  }
+  
+  section h2 {
+    padding-top: 300px;
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-style: oblique;
+    color: white;
+    
+  } 
+  
+  .tehnicar-za-racunalstvo-info{
+    margin-top: 80px;
+    margin-left: 5%;
+    position: relative;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+    width: 90%;
+    height: 1450px;
+    border-radius: 10px;
+  }
+  
+  .tehnicar-za-racunalstvo-info p {
+    font-size: 20px;
+    line-height: 22px;
+  }
+  
+  .odlomak {
+    padding-top: 30px;
+    margin-left: -20px;
+    padding-right: 10px;
+    color: white;
+    width: 350px !important;
+  }
+  
+  .odlomak-dva {
+    color: rgb(19, 16, 16);
+    font-weight: bold;
+  }
+  
+  
+  
+  .predmet {
+    text-decoration: none;
+    color: rgb(139, 139, 238);
+  }
+  
+  
+  li {
+    font-size: 18px;
+    padding-left: 5px;
+    color: white;
+    padding-top: 20px;
+  }
+  li:nth-child(1) {
+    padding-top: 20px;
+  }
+  
+  .slika {
+    object-fit: contain;
+    width: 70%;
+    margin-top: 80px;
+    margin-left: -10px;
+    height: 300px !important;
+    width: 350px !important;
+  }
+
+  .footer-flex {
+    margin-top: 350px !important;
+    margin-left: 70px;
+
+  }
+
+
+}
+
+
+@media screen and (max-width: 768.99px) and (min-width:577px) {
+
+  .logo-headline {
+    margin-left: 420px;
+   }
+  
+   .logo-picture {
+    margin-left: 100px;
+   }
+  
+    .headline {
+    
+      padding-right: 120px !important;
+      /* margin-left: -200px; */
+    }
+  
+    .head-menu {
+      margin-left: 230px !important;
+      
+    }
+
+
+  body {
+    background-image: url(../slike/vecteezy_dark-blue-paper-background_1906847.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 2200px;
+    background-attachment: fixed;
+    background-position: center center;
+    z-index: 1000;
+  }
+  
+  
+  .content {
+    width: 80%;   
+    margin: 0 auto;
+    height: 2100px;
+    /* box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5); */
+    
+  }
+  
+  section h2 {
+    padding-top: 550px;
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-style: oblique;
+    color: white;
+    
+  } 
+  
+  .tehnicar-za-racunalstvo-info{
+    margin-top: 80px;
+    margin-left: 5%;
+    position: relative;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+    width: 90%;
+    height: 1450px;
+    border-radius: 10px;
+  }
+  
+  .tehnicar-za-racunalstvo-info p {
+    font-size: 20px;
+    line-height: 22px;
+  }
+  
+  .odlomak {
+    padding-top: 30px;
+    margin-left: -20px;
+    padding-right: 10px;
+    color: white;
+    width: 450px !important;
+  }
+  
+  .odlomak-dva {
+    color: rgb(19, 16, 16);
+    font-weight: bold;
+  }
+  
+  
+  
+  .predmet {
+    text-decoration: none;
+    color: rgb(139, 139, 238);
+  }
+  
+  
+  li {
+    font-size: 18px;
+    padding-left: 5px;
+    color: white;
+    padding-top: 20px;
+  }
+  li:nth-child(1) {
+    padding-top: 20px;
+  }
+  
+  .slika {
+    object-fit: contain;
+    width: 70%;
+    margin-top: 80px;
+    margin-left: -10px;
+    height: 400px !important;
+    width: 450px !important;
+  }
+
+  .footer-flex {
+    margin-top: 350px !important;
+    margin-left: 90px;
+
+  }
+
+
+}
+
+
+@media screen and (max-width: 900.99px) and (min-width:769px) {
+
+  .logo-headline {
+    margin-left: 500px;
+   }
+  
+   .logo-picture {
+    margin-left: 100px;
+   }
+  
+    .headline {
+    
+      padding-right: 120px !important;
+      /* margin-left: -200px; */
+    }
+  
+    .head-menu {
+      margin-left: 280px !important;
+      
+    }
+
+
+  body {
+    background-image: url(../slike/vecteezy_dark-blue-paper-background_1906847.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 2200px;
+    background-attachment: fixed;
+    background-position: center center;
+    z-index: 1000;
+  }
+  
+  
+  .content {
+    width: 80%;   
+    margin: 0 auto;
+    height: 2100px;
+    /* box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5); */
+    
+  }
+  
+  section h2 {
+    padding-top: 550px;
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-style: oblique;
+    color: white;
+    
+  } 
+  
+  .tehnicar-za-racunalstvo-info{
+    margin-top: 80px;
+    margin-left: 5%;
+    position: relative;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+    width: 90%;
+    height: 1450px;
+    border-radius: 10px;
+  }
+  
+  .tehnicar-za-racunalstvo-info p {
+    font-size: 20px;
+    line-height: 22px;
+  }
+  
+  .odlomak {
+    padding-top: 30px;
+    margin-left: -20px;
+    padding-right: 10px;
+    color: white;
+    width: 550px !important;
+  }
+  
+  .odlomak-dva {
+    color: rgb(19, 16, 16);
+    font-weight: bold;
+  }
+  
+  
+  
+  .predmet {
+    text-decoration: none;
+    color: rgb(139, 139, 238);
+  }
+  
+  
+  li {
+    font-size: 18px;
+    padding-left: 5px;
+    color: white;
+    padding-top: 20px;
+  }
+  li:nth-child(1) {
+    padding-top: 20px;
+  }
+  
+  .slika {
+    object-fit: contain;
+    width: 70%;
+    margin-top: 80px;
+    margin-left: 20px;
+    height: 450px !important;
+    width: 500px !important;
+    
+  }
+
+  .footer-flex {
+    margin-top: 350px !important;
+    margin-left: 180px;
+
+  }
+
+
+
+}
+
+
+@media screen and (max-width: 1024.99px) and (min-width:901px) {
+
+
+  .logo-headline {
+    margin-left: 550px;
+   }
+  
+   .logo-picture {
+    margin-left: 100px;
+   }
+  
+    .headline {
+    
+      padding-right: 120px !important;
+      /* margin-left: -200px; */
+    }
+  
+    .head-menu {
+      margin-left: 300px !important;
+      
+    }
+
+  body {
+    background-image: url(../slike/vecteezy_dark-blue-paper-background_1906847.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 2200px;
+    background-attachment: fixed;
+    background-position: center center;
+    z-index: 1000;
+  }
+  
+  
+  .content {
+    width: 80%;   
+    margin: 0 auto;
+    height: 2100px;
+    /* box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5); */
+    
+  }
+  
+  section h2 {
+    padding-top: 650px;
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-style: oblique;
+    color: white;
+    
+  } 
+  
+  .tehnicar-za-racunalstvo-info{
+    margin-top: 80px;
+    margin-left: 5%;
+    position: relative;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+    width: 90%;
+    height: 1450px;
+    border-radius: 10px;
+  }
+  
+  .tehnicar-za-racunalstvo-info p {
+    font-size: 20px;
+    line-height: 22px;
+  }
+  
+  .odlomak {
+    padding-top: 30px;
+    padding-right: 10px;
+    color: white;
+    width: 600px !important;
+  }
+  
+  .odlomak-dva {
+    color: rgb(19, 16, 16);
+    font-weight: bold;
+  }
+  
+  
+  
+  .predmet {
+    text-decoration: none;
+    color: rgb(139, 139, 238);
+  }
+  
+  
+  li {
+    font-size: 18px;
+    padding-left: 5px;
+    color: white;
+    padding-top: 20px;
+  }
+  li:nth-child(1) {
+    padding-top: 20px;
+  }
+  
+  .slika {
+    object-fit: contain;
+    width: 70%;
+    margin-top: 80px;
+    margin-left: 30px;
+    height: 500px !important;
+    width: 650px !important;
+    
+  }
+
+  .footer-flex {
+    margin-top: 450px !important;
+    margin-left: 240px;
+
+  }
+
+
+
+}
+
+
+@media screen and (max-width: 1200.99px) and (min-width:1025px) {
+
+
+  .logo-headline {
+    margin-left: 800px;
+   }
+  
+   .logo-picture {
+    margin-left: 100px;
+   }
+  
+    .headline {
+    
+      padding-right: 120px !important;
+      /* margin-left: -200px; */
+    }
+  
+    .head-menu {
+      margin-left: -80px !important;
+      
+    }
+
+  body {
+    background-image: url(../slike/vecteezy_dark-blue-paper-background_1906847.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 2200px;
+    background-attachment: fixed;
+    background-position: center center;
+    z-index: 1000;
+  }
+  
+  
+  .content {
+    width: 80%;   
+    margin: 0 auto;
+    height: 2100px;
+    /* box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5); */
+    
+  }
+  
+  section h2 {
+    padding-top: 300px;
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-style: oblique;
+    color: white;
+    
+  } 
+  
+  .tehnicar-za-racunalstvo-info{
+    margin-top: 80px;
+    margin-left: 5%;
+    position: relative;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+    width: 90%;
+    height: 1450px;
+    border-radius: 10px;
+  }
+  
+  .tehnicar-za-racunalstvo-info p {
+    font-size: 20px;
+    line-height: 22px;
+  }
+  
+  .odlomak {
+    padding-top: 30px;
+    padding-right: 10px;
+    color: white;
+    width: 700px !important;
+  }
+  
+  .odlomak-dva {
+    color: rgb(19, 16, 16);
+    font-weight: bold;
+  }
+  
+  
+  
+  .predmet {
+    text-decoration: none;
+    color: rgb(139, 139, 238);
+  }
+  
+  
+  li {
+    font-size: 18px;
+    padding-left: 5px;
+    color: white;
+    padding-top: 20px;
+  }
+  li:nth-child(1) {
+    padding-top: 20px;
+  }
+  
+  .slika {
+    object-fit: contain;
+    width: 70%;
+    margin-top: 80px;
+    margin-left: 10px;
+    height: 600px !important;
+    width: 700px !important;
+    
+  }
+
+  .footer-flex {
+    margin-top: 100px !important;
+    margin-left: 270px;
+
+  }
+
+
+
+}
+
+
+@media screen and (max-width: 1440.99px) and (min-width:1201px) {
+
+  .logo-headline {
+    margin-left: 983px;
+   }
+  
+   .logo-picture {
+    margin-left: 70px !important;
+   }
+  
+    .headline {
+    
+      padding-right: 120px !important;
+      /* margin-left: -200px; */
+    }
+  
+    .head-menu  {
+      /* margin-left: -500px; */
+      width: 100%;
+      
+    }
+
+  body {
+    background-image: url(../slike/vecteezy_dark-blue-paper-background_1906847.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 2200px;
+    background-attachment: fixed;
+    background-position: center center;
+    z-index: 1000;
+  }
+  
+  
+  .content {
+    width: 80%;   
+    margin: 0 auto;
+    height: 2100px;
+    /* box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5); */
+    
+  }
+  
+  section h2 {
+    padding-top: 300px;
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-style: oblique;
+    color: white;
+    
+  } 
+  
+  .tehnicar-za-racunalstvo-info{
+    margin-top: 80px;
+    margin-left: 5%;
+    position: relative;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+    width: 90%;
+    height: 1450px;
+    border-radius: 10px;
+  }
+  
+  .tehnicar-za-racunalstvo-info p {
+    font-size: 20px;
+    line-height: 22px;
+  }
+  
+  .odlomak {
+    padding-top: 30px;
+    padding-right: 10px;
+    color: white;
+    width: 800px !important;
+  }
+  
+  .odlomak-dva {
+    color: rgb(19, 16, 16);
+    font-weight: bold;
+  }
+  
+  
+  
+  .predmet {
+    text-decoration: none;
+    color: rgb(139, 139, 238);
+  }
+  
+  
+  li {
+    font-size: 18px;
+    padding-left: 5px;
+    color: white;
+    padding-top: 20px;
+  }
+  li:nth-child(1) {
+    padding-top: 20px;
+  }
+  
+  .slika {
+    object-fit: contain;
+    width: 70%;
+    margin-top: 80px;
+    margin-left: 10px;
+    height: 700px !important;
+    width: 800px !important;
+    
+  }
+
+  .footer-flex {
+    margin-top: 100px !important;
+    margin-left: 270px;
+
+  }
+
+  
+
+}
+
+
+@media screen and (max-width: 1600.99px) and (min-width:1411px) {
+
+
+
+}
