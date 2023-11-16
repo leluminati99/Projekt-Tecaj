@@ -1,0 +1,1308 @@
+body {
+  background-image: url(../slike/vecteezy_dark-blue-paper-background_1906847.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 2100px;
+  background-attachment: fixed;
+  background-position: center center;
+  z-index: 1000;
+}
+
+
+.content {
+  width: 80%;   
+  margin: 0 auto;
+  height: 1850px;
+  /* box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5); */
+  
+}
+
+section h2 {
+  padding-top: 200px;
+  text-align: center;
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight: 100;
+  font-style: oblique;
+  color: white;
+  
+} 
+
+.onama-content{
+  margin-top: 40px;
+  margin-left: 5%;
+  position: relative;
+  /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+  width: 90%;
+  height: 1450px;
+  border-radius: 10px;
+}
+
+
+
+.misija-vizija {
+  width: 100%;
+  height: 440px;
+  display: inline-block;
+  /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+  border-radius: 5px;
+  
+}
+
+.povijest {
+  margin-top: 20px;
+  width: 100%;
+  height: 500px;
+  display: inline-block;
+  /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+  border-radius: 5px;
+}
+
+.lokacija {
+  margin-top: 40px;
+  width: 100%;
+  height: 390px;
+  display: inline-block;
+  /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+  border-radius: 5px;
+}
+
+.onama-headline {
+  /* display: inline-block;
+  width: 100%;
+  height: 50px; */
+  
+  /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+  /* background-color: rgb(51, 41, 41); */
+  /* background-color: rgb(236, 6, 6); */
+  
+  
+
+}
+
+.onama-headline h3 {
+  font: 28px bolder;
+  color: white;
+  text-align: center;
+  font-style: italic;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(19, 16, 16);
+}
+
+.misija-vizija-odlomak {
+  color: white;
+  font-size: 20px;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: sans-serif;
+}
+
+.misija-vizija ol {
+  padding-top: 10px;
+  font-size: 20px;
+  color: white;
+  
+
+}
+
+.povijest-odlomak {
+  color: white;
+  font-size: 20px;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: sans-serif;
+}
+
+.povijest-odlomak strong {
+  font-style: italic;
+  /* color: rgb(51, 41, 41); */
+}
+
+#mapaSkole {
+  width: 100%;
+  height: 325px;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 360.99px){
+
+  body {
+    background-image: url(../slike/vecteezy_dark-blue-paper-background_1906847.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 5000px;
+    background-attachment: fixed;
+    background-position: center center;
+    z-index: 1000;
+  }
+  
+  
+  .content {
+    width: 80%;   
+    margin: 0 auto;
+    height: 4200px;
+    /* box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5); */
+    
+  }
+  
+  section h2 {
+    padding-top: 300px;
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-style: oblique;
+    color: white;
+    
+  } 
+  
+  .onama-content{
+    margin-top: 80px;
+    margin-left: 5%;
+    position: relative;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+    width: 90%;
+    height: 1450px;
+    border-radius: 10px;
+  }
+  
+  
+  
+  .misija-vizija {
+    width: 100%;
+    height: 440px;
+    display: inline-block;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+    border-radius: 5px;
+    
+    
+  }
+  
+  .povijest {
+    margin-top: 20px;
+    width: 100%;
+    height: 500px;
+    display: inline-block;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+    border-radius: 5px;
+  }
+  
+  .lokacija {
+    margin-top: 40px;
+    width: 100%;
+    height: 390px;
+    display: inline-block;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+    border-radius: 5px;
+  }
+  
+  
+  .onama-headline h3 {
+    font: 28px bolder;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(19, 16, 16);
+    
+  }
+  
+  .misija-vizija-odlomak {
+    color: white;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: sans-serif;
+    margin-top: 80px;
+    margin-left: 10px;
+  }
+  
+  .misija-vizija ol {
+    padding-top: 10px;
+    font-size: 20px;
+    color: white;
+
+    
+  
+  }
+
+  .povijest-headline {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+  
+  .povijest-odlomak {
+    color: white;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: sans-serif;
+    margin-left: 10px;
+  }
+  
+  .povijest-odlomak strong {
+    font-style: italic;
+    color: black;
+    /* color: rgb(51, 41, 41); */
+  }
+  
+  #mapaSkole {
+    width: 100%;
+    height: 325px;
+    border-radius: 10px;
+  }
+
+  .footer-flex {
+    margin-top: 3200px;
+    margin-left: -10px;
+  }
+  
+
+  
+
+}
+
+
+
+@media screen and (max-width: 576.99px) and (min-width:361px) {
+
+  .logo-headline {
+    margin-left: 200px;
+   }
+  
+   .logo-picture {
+    margin-left: 100px;
+   }
+  
+    .headline {
+    
+      padding-right: 120px !important;
+      /* margin-left: -200px; */
+    }
+  
+    .head-menu {
+      margin-left: 150px !important;
+      
+    }
+    
+
+  body {
+    background-image: url(../slike/vecteezy_dark-blue-paper-background_1906847.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 5000px;
+    background-attachment: fixed;
+    background-position: center center;
+    z-index: 1000;
+  }
+  
+  
+  .content {
+    width: 80%;   
+    margin: 0 auto;
+    height: 4200px;
+    /* box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5); */
+    
+  }
+  
+  section h2 {
+    padding-top: 300px;
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-style: oblique;
+    color: white;
+    
+  } 
+  
+  .onama-content{
+    margin-top: 80px;
+    margin-left: 5%;
+    position: relative;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+    width: 90%;
+    height: 1450px;
+    border-radius: 10px;
+  }
+  
+  
+  
+  .misija-vizija {
+    width: 100%;
+    height: 440px;
+    display: inline-block;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+    border-radius: 5px;
+    
+    
+  }
+  
+  .povijest {
+    margin-top: 20px;
+    width: 100%;
+    height: 500px;
+    display: inline-block;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+    border-radius: 5px;
+  }
+  
+  .lokacija {
+    margin-top: 40px;
+    width: 100%;
+    height: 390px;
+    display: inline-block;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+    border-radius: 5px;
+  }
+  
+  
+  .onama-headline h3 {
+    font: 28px bolder;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(19, 16, 16);
+    
+  }
+  
+  .misija-vizija-odlomak {
+    color: white;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: sans-serif;
+    margin-top: 80px;
+    margin-left: 10px;
+  }
+  
+  .misija-vizija ol {
+    padding-top: 10px;
+    font-size: 20px;
+    color: white;
+
+    
+  
+  }
+
+  .povijest-headline {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+  
+  .povijest-odlomak {
+    color: white;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: sans-serif;
+    margin-left: 10px;
+  }
+  
+  .povijest-odlomak strong {
+    font-style: italic;
+    color: black;
+    /* color: rgb(51, 41, 41); */
+  }
+  
+  #mapaSkole {
+    width: 100%;
+    height: 325px;
+    border-radius: 10px;
+  }
+
+  .footer-flex {
+    margin-top: 1700px;
+    margin-left: 80px;
+  }
+  
+  
+
+}
+
+@media screen and (max-width: 768.99px) and (min-width:577px){
+  .logo-headline {
+    margin-left: 420px;
+   }
+  
+   .logo-picture {
+    margin-left: 100px;
+   }
+  
+    .headline {
+    
+      padding-right: 120px !important;
+      /* margin-left: -200px; */
+    }
+  
+    .head-menu {
+      margin-left: 230px !important;
+      
+    }
+
+    
+
+  body {
+    background-image: url(../slike/vecteezy_dark-blue-paper-background_1906847.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 5000px;
+    background-attachment: fixed;
+    background-position: center center;
+    z-index: 1000;
+  }
+  
+  
+  .content {
+    width: 80%;   
+    margin: 0 auto;
+    height: 4200px;
+    /* box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5); */
+    
+  }
+  
+  section h2 {
+    padding-top: 530px;
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-style: oblique;
+    color: white;
+    
+  } 
+  
+  .onama-content{
+    margin-top: 80px;
+    margin-left: 5%;
+    position: relative;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+    width: 90%;
+    height: 1450px;
+    border-radius: 10px;
+  }
+  
+  
+  
+  .misija-vizija {
+    width: 100%;
+    height: 440px;
+    display: inline-block;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+    border-radius: 5px;
+    
+    
+  }
+  
+  .povijest {
+    margin-top: 20px;
+    width: 100%;
+    height: 500px;
+    display: inline-block;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+    border-radius: 5px;
+  }
+  
+  .lokacija {
+    margin-top: 40px;
+    width: 100%;
+    height: 390px;
+    display: inline-block;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+    border-radius: 5px;
+  }
+  
+  
+  .onama-headline h3 {
+    font: 28px bolder;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(19, 16, 16);
+    
+  }
+  
+  .misija-vizija-odlomak {
+    color: white;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: sans-serif;
+    margin-top: 80px;
+    margin-left: 10px;
+  }
+  
+  .misija-vizija ol {
+    padding-top: 10px;
+    font-size: 20px;
+    color: white;
+
+    
+  
+  }
+
+  .povijest-headline {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+  
+  .povijest-odlomak {
+    color: white;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: sans-serif;
+    margin-left: 10px;
+  }
+  
+  .povijest-odlomak strong {
+    font-style: italic;
+    color: black;
+    /* color: rgb(51, 41, 41); */
+  }
+  
+  #mapaSkole {
+    width: 100%;
+    height: 325px;
+    border-radius: 10px;
+  }
+
+  .footer-flex {
+    margin-top: 1200px;
+    margin-left: 100px;
+  }
+  
+
+  
+
+}
+
+@media screen and (max-width: 900.99px) and (min-width:769px){
+  .logo-headline {
+    margin-left: 500px;
+   }
+  
+   .logo-picture {
+    margin-left: 100px;
+   }
+  
+    .headline {
+    
+      padding-right: 120px !important;
+      /* margin-left: -200px; */
+    }
+  
+    .head-menu {
+      margin-left: 280px !important;
+      
+    }
+
+    
+
+  body {
+    background-image: url(../slike/vecteezy_dark-blue-paper-background_1906847.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 5000px;
+    background-attachment: fixed;
+    background-position: center center;
+    z-index: 1000;
+  }
+  
+  
+  .content {
+    width: 80%;   
+    margin: 0 auto;
+    height: 4200px;
+    /* box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5); */
+    
+  }
+  
+  section h2 {
+    padding-top: 530px;
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-style: oblique;
+    color: white;
+    
+  } 
+  
+  .onama-content{
+    margin-top: 80px;
+    margin-left: 5%;
+    position: relative;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+    width: 90%;
+    height: 1450px;
+    border-radius: 10px;
+  }
+  
+  
+  
+  .misija-vizija {
+    width: 100%;
+    height: 440px;
+    display: inline-block;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+    border-radius: 5px;
+    
+    
+  }
+  
+  .povijest {
+    margin-top: 20px;
+    width: 100%;
+    height: 500px;
+    display: inline-block;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+    border-radius: 5px;
+  }
+  
+  .lokacija {
+    margin-top: 40px;
+    width: 100%;
+    height: 390px;
+    display: inline-block;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+    border-radius: 5px;
+  }
+  
+  
+  .onama-headline h3 {
+    font: 28px bolder;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(19, 16, 16);
+    
+  }
+  
+  .misija-vizija-odlomak {
+    color: white;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: sans-serif;
+    margin-top: 80px;
+    margin-left: 10px;
+  }
+  
+  .misija-vizija ol {
+    padding-top: 10px;
+    font-size: 20px;
+    color: white;
+
+    
+  
+  }
+
+  .povijest-headline {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+  
+  .povijest-odlomak {
+    color: white;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: sans-serif;
+    margin-left: 10px;
+  }
+  
+  .povijest-odlomak strong {
+    font-style: italic;
+    color: black;
+    /* color: rgb(51, 41, 41); */
+  }
+  
+  #mapaSkole {
+    width: 100%;
+    height: 325px;
+    border-radius: 10px;
+  }
+
+  .footer-flex {
+    margin-top: 1000px;
+    margin-left: 170px;
+  }
+
+  
+
+}
+
+
+@media screen and (max-width: 1024.99px) and (min-width:901px){
+  .logo-headline {
+    margin-left: 550px;
+   }
+  
+   .logo-picture {
+    margin-left: 100px;
+   }
+  
+    .headline {
+    
+      padding-right: 120px !important;
+      /* margin-left: -200px; */
+    }
+  
+    .head-menu {
+      margin-left: 300px !important;
+      
+    }
+
+    
+
+  body {
+    background-image: url(../slike/vecteezy_dark-blue-paper-background_1906847.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 5000px;
+    background-attachment: fixed;
+    background-position: center center;
+    z-index: 1000;
+  }
+  
+  
+  .content {
+    width: 80%;   
+    margin: 0 auto;
+    height: 4200px;
+    /* box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5); */
+    
+  }
+  
+  section h2 {
+    padding-top: 650px;
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-style: oblique;
+    color: white;
+    
+  } 
+  
+  .onama-content{
+    margin-top: 80px;
+    margin-left: 5%;
+    position: relative;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+    width: 90%;
+    height: 1450px;
+    border-radius: 10px;
+  }
+  
+  
+  
+  .misija-vizija {
+    width: 100%;
+    height: 440px;
+    display: inline-block;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+    border-radius: 5px;
+    
+    
+  }
+  
+  .povijest {
+    margin-top: 20px;
+    width: 100%;
+    height: 500px;
+    display: inline-block;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+    border-radius: 5px;
+  }
+  
+  .lokacija {
+    margin-top: 40px;
+    width: 100%;
+    height: 390px;
+    display: inline-block;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+    border-radius: 5px;
+  }
+  
+  
+  .onama-headline h3 {
+    font: 28px bolder;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(19, 16, 16);
+    
+  }
+  
+  .misija-vizija-odlomak {
+    color: white;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: sans-serif;
+    margin-top: 80px;
+    margin-left: 10px;
+  }
+  
+  .misija-vizija ol {
+    padding-top: 10px;
+    font-size: 20px;
+    color: white;
+
+    
+  
+  }
+
+  .povijest-headline {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+  
+  .povijest-odlomak {
+    color: white;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: sans-serif;
+    margin-left: 10px;
+  }
+  
+  .povijest-odlomak strong {
+    font-style: italic;
+    color: black;
+    /* color: rgb(51, 41, 41); */
+  }
+  
+  #mapaSkole {
+    width: 100%;
+    height: 325px;
+    border-radius: 10px;
+  }
+
+  .footer-flex {
+    margin-top: 900px;
+    margin-left: 190px;
+  }
+
+  
+  
+  
+
+}
+
+@media screen and (max-width: 1200.99px) and (min-width:1025px){
+  .logo-headline {
+    margin-left: 800px;
+   }
+  
+   .logo-picture {
+    margin-left: 100px;
+   }
+  
+    .headline {
+    
+      padding-right: 120px !important;
+      /* margin-left: -200px; */
+    }
+  
+    .head-menu {
+      margin-left: -80px !important;
+      
+    }
+
+    
+
+  body {
+    background-image: url(../slike/vecteezy_dark-blue-paper-background_1906847.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 5000px;
+    background-attachment: fixed;
+    background-position: center center;
+    z-index: 1000;
+  }
+  
+  
+  .content {
+    width: 80%;   
+    margin: 0 auto;
+    height: 4200px;
+    /* box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5); */
+    
+  }
+  
+  section h2 {
+    padding-top: 300px;
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-style: oblique;
+    color: white;
+    
+  } 
+  
+  .onama-content{
+    margin-top: 80px;
+    margin-left: 5%;
+    position: relative;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+    width: 90%;
+    height: 1450px;
+    border-radius: 10px;
+  }
+  
+  
+  
+  .misija-vizija {
+    width: 100%;
+    height: 440px;
+    display: inline-block;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+    border-radius: 5px;
+    
+    
+  }
+  
+  .povijest {
+    margin-top: 20px;
+    width: 100%;
+    height: 500px;
+    display: inline-block;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+    border-radius: 5px;
+  }
+  
+  .lokacija {
+    margin-top: 40px;
+    width: 100%;
+    height: 390px;
+    display: inline-block;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+    border-radius: 5px;
+  }
+  
+  
+  .onama-headline h3 {
+    font: 28px bolder;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(19, 16, 16);
+    
+  }
+  
+  .misija-vizija-odlomak {
+    color: white;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: sans-serif;
+    margin-top: 80px;
+    margin-left: 10px;
+  }
+  
+  .misija-vizija ol {
+    padding-top: 10px;
+    font-size: 20px;
+    color: white;
+
+    
+  
+  }
+
+  .povijest-headline {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+  
+  .povijest-odlomak {
+    color: white;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: sans-serif;
+    margin-left: 10px;
+  }
+  
+  .povijest-odlomak strong {
+    font-style: italic;
+    color: black;
+    /* color: rgb(51, 41, 41); */
+  }
+  
+  #mapaSkole {
+    width: 100%;
+    height: 325px;
+    border-radius: 10px;
+  }
+
+  .footer-flex {
+    margin-top: 700px;
+    margin-left: 280px;
+  }
+  
+
+}
+
+@media screen and (max-width: 1440.99px) and (min-width:1201px){
+  .logo-headline {
+    margin-left: 983px;
+   }
+  
+   .logo-picture {
+    margin-left: 70px !important;
+   }
+  
+    .headline {
+    
+      padding-right: 120px !important;
+      /* margin-left: -200px; */
+    }
+  
+    .head-menu  {
+      /* margin-left: -500px; */
+      width: 100%;
+      
+    }
+
+    
+
+  body {
+    background-image: url(../slike/vecteezy_dark-blue-paper-background_1906847.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 5000px;
+    background-attachment: fixed;
+    background-position: center center;
+    z-index: 1000;
+  }
+  
+  
+  .content {
+    width: 80%;   
+    margin: 0 auto;
+    height: 4200px;
+    /* box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5); */
+    
+  }
+  
+  section h2 {
+    padding-top: 300px;
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-style: oblique;
+    color: white;
+    
+  } 
+  
+  .onama-content{
+    margin-top: 80px;
+    margin-left: 5%;
+    position: relative;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+    width: 90%;
+    height: 1450px;
+    border-radius: 10px;
+  }
+  
+  
+  
+  .misija-vizija {
+    width: 100%;
+    height: 440px;
+    display: inline-block;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+    border-radius: 5px;
+    
+    
+  }
+  
+  .povijest {
+    margin-top: 20px;
+    width: 100%;
+    height: 500px;
+    display: inline-block;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+    border-radius: 5px;
+  }
+  
+  .lokacija {
+    margin-top: 40px;
+    width: 100%;
+    height: 390px;
+    display: inline-block;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+    border-radius: 5px;
+  }
+  
+  
+  .onama-headline h3 {
+    font: 28px bolder;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(19, 16, 16);
+    
+  }
+  
+  .misija-vizija-odlomak {
+    color: white;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: sans-serif;
+    margin-top: 80px;
+    margin-left: 10px;
+  }
+  
+  .misija-vizija ol {
+    padding-top: 10px;
+    font-size: 20px;
+    color: white;
+
+    
+  
+  }
+
+  .povijest-headline {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+  
+  .povijest-odlomak {
+    color: white;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: sans-serif;
+    margin-left: 10px;
+  }
+  
+  .povijest-odlomak strong {
+    font-style: italic;
+    color: black;
+    /* color: rgb(51, 41, 41); */
+  }
+  
+  #mapaSkole {
+    width: 100%;
+    height: 325px;
+    border-radius: 10px;
+  }
+
+  footer {
+    width: 100% ;
+  }
+
+  .footer-flex {
+    margin-left: 0 !important;
+    display: inline-block !important;
+    margin-top: 700px;
+    margin-left: 280px;
+  }
+  
+  .skola-info, .strucne-sluzbe, .korisni-linkovi {
+    font-size: 16px;
+    position: absolute;
+    width: 400px;
+  }
+
+  .skola-info h3, .strucne-sluzbe h3, .korisni-linkovi h3 {
+    font-size: 22px;
+  }
+
+  .skola-info  {
+    /* margin-left: -1000px; */
+    /* bottom: 140px; */
+    left: 0;
+    
+    
+  }
+
+  .h3-skola-info {
+    margin-left: 15px;
+    
+  }
+
+ .strucne-sluzbe {
+    
+    margin-left: 25px;
+    bottom: 70px;
+    left: 400px;
+  }
+
+  .h3-strucne-sluzbe {
+    margin-left: -250px;
+  
+
+  }
+
+  .korisni-linkovi {
+    margin-left: 40px;
+    padding-bottom: 50px;
+    bottom: 88px;
+    left: 830px;
+  }
+
+  .h3-korisni-linkovi {
+    margin-left: -35px;
+  }
+
+  
+
+}
+
+
+@media screen and (max-width: 1600.99px) and (min-width:1411px){
+  
+  .logo-headline {
+    margin-left: -30px;
+  }
+   .logo-picture {
+    margin-left: 70px !important;
+   }
+  
+    .headline {
+    
+      padding-right: 120px !important;
+      /* margin-left: -200px; */
+    }
+  
+    .head-menu  {
+      /* margin-left: -500px; */
+      width: 100%;
+      
+    }
+
+
+
+ 
+}
+ 

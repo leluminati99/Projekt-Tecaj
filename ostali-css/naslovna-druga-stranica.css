@@ -1,0 +1,1526 @@
+body {
+  background-image: url(../slike/vecteezy_dark-blue-paper-background_1906847.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 2200px;
+  background-attachment: fixed;
+  background-position: center center;
+  z-index: 1000;
+}
+
+
+.content {
+  width: 80%;   
+  margin: 0 auto;
+  height: 2100px;
+  /* box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5); */
+  
+}
+
+section h2 {
+  padding-top: 200px;
+  text-align: center;
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight: 100;
+  font-style: oblique;
+  color: white;
+  
+} 
+
+.novosti{
+  margin-top: 40px;
+  margin-left: 5%;
+  position: relative;
+  /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+  width: 90%;
+  height: 1450px;
+  border-radius: 10px;
+}
+
+.erasmus-sastanak, .skola-fizike, .nosenje-maski, .povratak {
+  position: relative;
+  margin-top: 25px;
+  border-radius: 5px;
+}
+
+.kreativna-riznica {
+  position: relative;
+  display: inline-block;
+  width: 49%;
+  height: 530px;
+  /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+  border-radius: 5px;
+}
+
+.druzenje-s-volonterima {
+  position: relative;
+  display: inline-block;
+  width: 49%;
+  height: 530px;
+  /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+  float: right;
+  border-radius: 5px;
+}
+
+.slika-novosti {
+  width: 100%;
+  height: 300px;
+  border-radius: 5px;
+}
+
+
+
+.naziv  {
+  width: 100;
+  padding: 5px 10px;
+  font-size: 23px;
+  line-height: 25px;
+  /* border-bottom: 1px solid rgb(211, 211, 211); */
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-style: oblique;
+  text-align: center;
+}
+
+.naziv a {
+  color: rgb(19, 16, 16);
+  text-decoration: none;
+}
+
+.naziv-riznica {
+  padding-top: 17px;
+  padding-bottom:18px;
+}
+
+.naziv-volonteri {
+  padding-top: 17px;
+  padding-bottom:18px;
+}
+
+.naziv-sastanak {
+  padding-top: 17px;
+  padding-bottom:18px;
+}
+
+.naziv-fizika {
+  padding-top: 17px;
+  padding-bottom:18px;
+}
+
+.naziv-maske {
+  padding-top: 17px;
+  padding-bottom:18px;
+}
+
+.naziv-povratak {
+  padding-top: 17px;
+  padding-bottom:18px;
+}
+
+
+.kratki-sadrzaj {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  padding-top: 10px;
+  color: white;
+  
+}
+
+.kratki-sadrzaj p {
+  font-size: 20px;
+  line-height: 21px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+.erasmus-sastanak {
+  display: inline-block;
+  width: 49%;
+   height: 530px; 
+  /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+}
+
+.skola-fizike {
+  display: inline-block;
+  width: 49%;
+  height: 530px;
+  /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+  float: right;
+}
+
+.nosenje-maski {
+  display: inline-block;
+  width: 49%;
+  height: 510px;
+  /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+  
+}
+
+.povratak {
+  display: inline-block;
+  width: 49%;
+  height: 510px;
+  /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+  float: right;
+}
+
+.datum-i-nastavi {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  bottom: 0;
+  height:40px;
+  border-top: 1px solid rgb(211, 211, 211);
+  font-family: sans-serif;
+}
+
+.datum {
+  padding-top: 12px;
+  padding-left: 10px;
+  padding-right: 10px;
+  /* border-left:1px solid rgb(211, 211, 211);
+  border-right:1px solid rgb(211, 211, 211); */
+  color: white;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nastavi {
+  background-color: transparent;
+  border: none;
+  /* border-left:1px solid rgb(211, 211, 211);
+  border-right:1px solid rgb(211, 211, 211); */
+  border-radius: 3px;
+  font-weight: bold;
+ 
+  
+}
+
+.nastavi a{
+  color: rgb(5, 4, 4);
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 25px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding-left: 10px;
+  padding-right: 10px;
+  transition: color 1s;
+  
+}
+
+.nastavi a:hover {
+  color: white;
+}
+
+
+
+
+
+
+.sljedeca-stranica {
+  display: flex;
+  justify-content: space-between;
+ padding-top: 150px;
+ font-family: sans-serif;
+
+}
+
+.sljedeca-stranica a {
+  text-decoration: none;
+}
+
+.broj-stranice  {
+  display: flex;
+  padding-bottom: 5px;
+}
+
+.prev {
+  
+  border-radius: 25px;
+  /* border: 1px solid rgb(160, 160, 160);
+  background-color: white; */
+  font-size: 14px;
+  color: rgb(5, 4, 4);
+  transition: color 1s;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.prev:hover {
+  color: white;
+}
+
+.next {
+  border-radius: 25px;
+  /* border: 1px solid rgb(160, 160, 160);
+  background-color: white; */
+  font-size: 14px;
+  color: white;
+
+  padding-right: 8px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+
+.jedan {
+  color: rgb(5, 4, 4);
+  padding: 1px 5px;
+  font-size: 20px;
+  margin-left: 2px;
+  /* background-color: white; */
+  border-radius: 3px;
+  transition:color 1s;
+}
+
+.jedan:hover {
+  
+  color: white;
+  border-radius: 3px;
+}
+
+.dva {
+  color: white;
+  padding: 1px 5px;
+  font-size: 20px;
+  border-radius: 3px;
+  
+}
+
+.datum-a {
+  text-decoration: none;
+  color: white;
+  transition: color 1s;
+}
+
+.datum-a:hover {
+  color: rgb(5, 4, 4);
+  
+}
+
+@media screen and (max-width: 360.99px) {
+
+  body {
+    margin: 0;
+    width: 300px;
+    background-image: url(../slike/vecteezy_dark-blue-paper-background_1906847.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 5000px;
+    background-attachment: fixed;
+    background-position: center center;
+    z-index: 1000;
+  }
+  
+  .content {
+    width: 80%;
+    margin: 0 auto;
+  
+  }
+  
+  section h2 {
+    padding-top: 200px;
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-style: oblique;
+    color: white;
+
+  }
+  
+  .novosti {
+    margin-top: 40px;
+    margin-left: 5%;
+    position: relative;
+    width: 100%;
+    height: 4000px;
+    border-radius: 10px;
+  }
+  
+ .kreativna-riznica, .druzenje-s-volonterima, .erasmus-sastanak, .skola-fizike, .nosenje-maski, .povratak {
+    position: relative;
+    display: block;
+    margin-top: 100px;
+    margin-left: 10px;
+    width: 100%;
+    float: none;
+
+  
+    
+  }
+
+  .kreativna-riznica {
+    height: 515px;
+  }
+  
+  .druzenje-s-volonterima {
+    height: 560px;
+  }
+  
+  .erasmus-sastanak {
+    height: 560px;
+  }
+  
+  .skola-fizike {
+    height: 520px;
+  }
+  
+  .nosenje-maski {
+    height: 540px;
+  }
+  
+  .povratak {
+    height: 495px;
+  }
+
+  .kratki-sadrzaj p {
+    margin-left: 15px;
+    font-size: 18px;
+  }
+  
+  .datum-i-nastavi {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 10px;
+    height:40px;
+    border-top: 1px solid rgb(211, 211, 211);
+    border-radius: 10px;
+    font-family: sans-serif;
+    
+  
+  }
+  
+  .datum {
+    font-size: 12px;
+    margin-top: 2px;
+  }
+  
+  .nastavi a {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  
+  
+  
+  .slika-novosti {
+    object-fit: contain;
+    height: 130px !important;
+    
+  }
+  
+  .naziv {
+    
+  }
+
+  .naziv-riznica {
+    
+  }
+  
+  .naziv-volonteri {
+    
+  }
+  
+  .naziv-sastanak {
+    
+  }
+  
+  .naziv-fizika {
+   
+  }
+  
+  .naziv-maske {
+    
+  }
+  
+  .naziv-povratak {
+    
+  }
+
+  .sljedeca-stranica {
+    width: 95%;
+    
+    margin-left: 20px;
+    font-size:15px ;
+  }
+  
+  
+  
+  .jedan {
+    margin-right: 10px;
+  
+  
+  
+  
+  }
+}
+
+
+@media  screen and (max-width:576.99px) and (min-width:361px) {
+
+  body {
+    margin: 0;
+    width: 300px;
+    background-image: url(../slike/vecteezy_dark-blue-paper-background_1906847.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 5200px;
+    background-attachment: fixed;
+    background-position: center center;
+    z-index: 1000;
+  }
+  
+  .content {
+    width: 80%;
+    margin: 0 auto;
+  
+  }
+  
+  section h2 {
+    padding-top: 250px;
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-style: oblique;
+    color: white;
+    margin-left: 110px;
+    width: 300px;
+
+  }
+  
+  .novosti {
+    margin-top: 40px;
+    margin-left: 5%;
+    position: relative;
+    width: 100%;
+    height: 4200px;
+    border-radius: 10px;
+  }
+
+  .slika-novosti {
+    object-fit: contain;
+    height: 300px !important;
+    width: 300px !important;
+    margin-left: 60px;
+    
+  }
+  
+ .kreativna-riznica, .druzenje-s-volonterima, .erasmus-sastanak, .skola-fizike, .nosenje-maski, .povratak {
+    position: relative;
+    display: block;
+    margin-top: 100px;
+    margin-left: 40px;
+    width: 100%;
+    float: none;
+
+  
+    
+  }
+
+  .kreativna-riznica {
+    height: 515px;
+  }
+  
+  .druzenje-s-volonterima {
+    height: 470px;
+  }
+  
+  .erasmus-sastanak {
+    height: 510px;
+  }
+  
+  .skola-fizike {
+    height: 490px;
+  }
+  
+  .nosenje-maski {
+    height: 540px;
+  }
+  
+  .povratak {
+    height: 465px;
+  }
+
+  .kratki-sadrzaj p {
+    width: 400px;
+    font-size: 18px;
+    
+  }
+  
+  .datum-i-nastavi {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    font-size: 10px;
+    height:40px;
+    border-top: 1px solid rgb(211, 211, 211);
+    border-radius: 10px;
+    font-family: sans-serif;
+    
+  
+  }
+  
+  .datum {
+    font-size: 12px;
+    margin-top: 2px;
+  }
+  
+  .nastavi a {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  
+  
+  
+
+  
+  .naziv {
+    margin: 0;
+    font-size: 21px;
+    text-align: center;
+    /* margin-left: -5px; */
+    width: 400px;
+  }
+
+  .naziv-riznica {
+    margin-top: -60px;
+  }
+  
+  .naziv-volonteri {
+    margin-top: -70px;
+  }
+  
+  .naziv-sastanak {
+    margin-top: -45px;
+  }
+  
+  .naziv-fizika {
+    margin-top: -70px;
+  }
+  
+  .naziv-maske {
+    margin-top: -25px;
+  }
+  
+  .naziv-povratak {
+    margin-top: -70px;
+  }
+
+  .sljedeca-stranica {
+    width: 400px;
+    
+    margin-left: 20px;
+    font-size:15px ;
+  }
+  
+  
+  
+  .jedan {
+    margin-right: 10px;
+  
+  
+  
+  
+  }
+}
+
+@media  screen and (max-width:768.99px) and (min-width:577px) {
+
+  body {
+    margin: 0;
+    width: 300px;
+    background-image: url(../slike/vecteezy_dark-blue-paper-background_1906847.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 5200px;
+    background-attachment: fixed;
+    background-position: center center;
+    z-index: 1000;
+  }
+  
+  .content {
+    width: 80%;
+    margin: 0 auto;
+  
+  }
+  
+  section h2 {
+    padding-top: 530px;
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-style: oblique;
+    color: white;
+    margin-left: 200px;
+    width: 300px;
+
+  }
+  
+  .novosti {
+    margin-top: 40px;
+    margin-left: 5%;
+    position: relative;
+    width: 100%;
+    height: 4300px;
+    border-radius: 10px;
+  }
+
+  .slika-novosti {
+    object-fit: contain;
+    height: 300px !important;
+    width: 400px !important;
+    margin-left: 10px;
+    
+  }
+  
+ .kreativna-riznica, .druzenje-s-volonterima, .erasmus-sastanak, .skola-fizike, .nosenje-maski, .povratak {
+    position: relative;
+    display: block;
+    margin-top: 100px;
+    margin-left: 130px;
+    width: 100%;
+    float: none;
+
+  
+    
+  }
+
+  .kreativna-riznica {
+    height: 525px;
+  }
+  
+  .druzenje-s-volonterima {
+    height: 480px;
+  }
+  
+  .erasmus-sastanak {
+    height: 510px;
+  }
+  
+  .skola-fizike {
+    height: 505px;
+  }
+  
+  .nosenje-maski {
+    height: 545px;
+  }
+  
+  .povratak {
+    height: 470px;
+  }
+
+  .kratki-sadrzaj p {
+    margin-left: 5px;
+    width: 400px;
+    font-size: 18px;
+    
+  }
+  
+  .datum-i-nastavi {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    font-size: 10px;
+    height:40px;
+    border-top: 1px solid rgb(211, 211, 211);
+    border-radius: 10px;
+    font-family: sans-serif;
+    
+  
+  }
+  
+  .datum {
+    font-size: 12px;
+    margin-top: 2px;
+  }
+  
+  .nastavi a {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  
+  
+  
+
+  
+  .naziv {
+    margin: 0;
+    font-size: 21px;
+    text-align: center;
+    /* margin-left: -5px; */
+    width: 400px;
+  }
+
+  .naziv-riznica {
+    margin-top: -30px;
+  }
+  
+  .naziv-volonteri {
+    margin-top: -50px;
+  }
+  
+  .naziv-sastanak {
+    margin-top: -45px;
+  }
+  
+  .naziv-fizika {
+    margin-top: -50px;
+  }
+  
+  .naziv-maske {
+    margin-top: -10px;
+  }
+  
+  .naziv-povratak {
+    margin-top: -60px;
+  }
+
+  .sljedeca-stranica {
+    width: 500px;
+    
+    margin-left: 80px;
+    font-size:15px ;
+  }
+  
+  
+  
+  .jedan {
+    margin-right: 10px;
+  
+  
+  
+  
+  }
+}
+
+@media  screen and (max-width:900.99px) and (min-width:769px) {
+
+  body {
+    margin: 0;
+    width: 300px;
+    background-image: url(../slike/vecteezy_dark-blue-paper-background_1906847.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 5300px;
+    background-attachment: fixed;
+    background-position: center center;
+    z-index: 1000;
+  }
+  
+  .content {
+    width: 80%;
+    margin: 0 auto;
+  
+  }
+  
+  section h2 {
+    padding-top: 550px;
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-style: oblique;
+    color: white;
+    margin-left: 260px;
+    width: 300px;
+
+  }
+  
+  .novosti {
+    margin-top: 40px;
+    margin-left: 5%;
+    position: relative;
+    width: 100%;
+    height: 4300px;
+    border-radius: 10px;
+  }
+
+  .slika-novosti {
+    object-fit: contain;
+    height: 300px !important;
+    width: 500px !important;
+    margin-left: 18px;
+    
+  }
+  
+ .kreativna-riznica, .druzenje-s-volonterima, .erasmus-sastanak, .skola-fizike, .nosenje-maski, .povratak {
+    position: relative;
+    display: block;
+    margin-top: 100px;
+    margin-left: 130px;
+    width: 100%;
+    float: none;
+
+  
+    
+  }
+
+  .kreativna-riznica {
+    height: 525px;
+  }
+  
+  .druzenje-s-volonterima {
+    height: 480px;
+  }
+  
+  .erasmus-sastanak {
+    height: 510px;
+  }
+  
+  .skola-fizike {
+    height: 515px;
+  }
+  
+  .nosenje-maski {
+    height: 515px;
+  }
+  
+  .povratak {
+    height: 470px;
+  }
+
+  .kratki-sadrzaj p {
+    margin-left: 5px;
+    width: 500px;
+    font-size: 18px;
+    
+  }
+  
+  .datum-i-nastavi {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    font-size: 10px;
+    height:40px;
+    border-top: 1px solid rgb(211, 211, 211);
+    border-radius: 10px;
+    font-family: sans-serif;
+    
+  
+  }
+  
+  .datum {
+    font-size: 12px;
+    margin-top: 2px;
+  }
+  
+  .nastavi a {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  
+  
+  
+
+  
+  .naziv {
+    margin: 0;
+    font-size: 21px;
+    text-align: center;
+    margin-left: 50px;
+    width: 400px;
+  }
+
+  .naziv-riznica {
+    margin-top: -10px;
+  }
+  
+  .naziv-volonteri {
+    margin-top: -30px;
+  }
+  
+  .naziv-sastanak {
+    margin-top: -15px;
+  }
+  
+  .naziv-fizika {
+    margin-top: -25px;
+  }
+  
+  .naziv-maske {
+    margin-top: -10px;
+  }
+  
+  .naziv-povratak {
+    margin-top: -40px;
+  }
+
+  .sljedeca-stranica {
+    width: 600px;
+    
+    margin-left: 100px;
+    font-size:15px ;
+  }
+  
+  
+  
+  .jedan {
+    margin-right: 10px;
+  
+  
+  
+  
+  }
+}
+
+
+@media  screen and (max-width:1024.99px) and (min-width:901px) {
+
+  body {
+    margin: 0;
+    width: 300px;
+    background-image: url(../slike/vecteezy_dark-blue-paper-background_1906847.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 5300px;
+    background-attachment: fixed;
+    background-position: center center;
+    z-index: 1000;
+  }
+  
+  .content {
+    width: 80%;
+    margin: 0 auto;
+  
+  }
+  
+  section h2 {
+    padding-top: 650px;
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-style: oblique;
+    color: white;
+    margin-left: 320px;
+    width: 300px;
+
+  }
+  
+  .novosti {
+    margin-top: 60px;
+    margin-left: 5%;
+    position: relative;
+    width: 100%;
+    height: 4300px;
+    border-radius: 10px;
+  }
+
+  .slika-novosti {
+    object-fit: contain;
+    height: 400px !important;
+    width: 550px !important;
+    margin-left: 18px;
+    
+  }
+  
+ .kreativna-riznica, .druzenje-s-volonterima, .erasmus-sastanak, .skola-fizike, .nosenje-maski, .povratak {
+    position: relative;
+    display: block;
+    margin-top: 100px;
+    margin-left: 170px;
+    width: 100%;
+    float: none;
+
+  
+    
+  }
+
+  .kreativna-riznica {
+    height: 610px;
+  }
+  
+  .druzenje-s-volonterima {
+    height: 560px;
+  }
+  
+  .erasmus-sastanak {
+    height: 570px;
+  }
+  
+  .skola-fizike {
+    height: 580px;
+  }
+  
+  .nosenje-maski {
+    height: 610px;
+  }
+  
+  .povratak {
+    height: 560px;
+  }
+
+  .kratki-sadrzaj p {
+    margin-left: 5px;
+    width: 500px;
+    font-size: 18px;
+    
+  }
+  
+  .datum-i-nastavi {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+    font-size: 10px;
+    height:40px;
+    border-top: 1px solid rgb(211, 211, 211);
+    border-radius: 10px;
+    font-family: sans-serif;
+    
+  
+  }
+  
+  .datum {
+    font-size: 12px;
+    margin-top: 2px;
+  }
+  
+  .nastavi a {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  
+  
+  
+
+  
+  .naziv {
+    margin: 0;
+    font-size: 21px;
+    text-align: center;
+    margin-left: 50px;
+    width: 500px;
+  }
+
+  .naziv-riznica {
+    margin-top: -30px;
+  }
+  
+  .naziv-volonteri {
+    margin-top: -60px;
+  }
+  
+  .naziv-sastanak {
+    margin-top: -50px;
+  }
+  
+  .naziv-fizika {
+    margin-top: -60px;
+  }
+  
+  .naziv-maske {
+    margin-top: -10px;
+  }
+  
+  .naziv-povratak {
+    margin-top: -70px;
+  }
+
+  .sljedeca-stranica {
+    width: 650px;
+    
+    margin-left: 130px;
+    font-size:15px ;
+  }
+  
+  
+  
+  .jedan {
+    margin-right: 10px;
+  
+  
+  
+  
+  }
+  .footer-flex {
+    margin-top: 3100px;
+  }
+}
+
+@media  screen and (max-width:1200.99px) and (min-width:1025px) {
+  body {
+    margin: 0;
+    width: 300px;
+    background-image: url(../slike/vecteezy_dark-blue-paper-background_1906847.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 5300px;
+    background-attachment: fixed;
+    background-position: center center;
+    z-index: 1000;
+  }
+  
+  .content {
+    width: 80%;
+    margin: 0 auto;
+  
+  }
+  
+  section h2 {
+    padding-top: 300px;
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-style: oblique;
+    color: white;
+    margin-left: 370px;
+    width: 400px;
+
+  }
+  
+  .novosti {
+    margin-top: 60px;
+    margin-left: 5%;
+    position: relative;
+    width: 100%;
+    height: 4300px;
+    border-radius: 10px;
+  }
+
+  .slika-novosti {
+    object-fit: contain;
+    height: 500px !important;
+    width: 650px !important;
+    margin-left: 60px;
+    
+  }
+  
+ .kreativna-riznica, .druzenje-s-volonterima, .erasmus-sastanak, .skola-fizike, .nosenje-maski, .povratak {
+    position: relative;
+    display: block;
+    margin-top: 100px;
+    margin-left: 170px;
+    width: 100%;
+    float: none;
+
+  
+    
+  }
+
+  .kreativna-riznica {
+    height: 670px;
+  }
+  
+  .druzenje-s-volonterima {
+    height: 640px;
+  }
+  
+  .erasmus-sastanak {
+    height: 650px;
+  }
+  
+  .skola-fizike {
+    height: 630px;
+  }
+  
+  .nosenje-maski {
+    height: 710px;
+  }
+  
+  .povratak {
+    height: 600px;
+  }
+
+  .kratki-sadrzaj p {
+    margin-left: 60px;
+    width: 650px;
+    font-size: 18px;
+    
+  }
+  
+  .datum-i-nastavi {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 650px;
+    font-size: 10px;
+    height:40px;
+    border-top: 1px solid rgb(211, 211, 211);
+    border-radius: 10px;
+    font-family: sans-serif;
+    margin-left: 60px;
+    
+  
+  }
+  
+  .datum {
+    font-size: 12px;
+    margin-top: 2px;
+  }
+  
+  .nastavi a {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  
+  
+  
+
+  
+  .naziv {
+    margin: 0;
+    font-size: 21px;
+    text-align: center;
+    margin-left: 50px;
+    width: 650px;
+  }
+
+  .naziv-riznica {
+    margin-top: -40px;
+  }
+  
+  .naziv-volonteri {
+    margin-top: -80px;
+  }
+  
+  .naziv-sastanak {
+    margin-top: -70px;
+  }
+  
+  .naziv-fizika {
+    margin-top: -85px;
+  }
+  
+  .naziv-maske {
+    margin-top: -10px;
+  }
+  
+  .naziv-povratak {
+    margin-top: -100px;
+  }
+
+  .sljedeca-stranica {
+    width: 750px;
+    
+    margin-left: 180px;
+    font-size:15px ;
+  }
+  
+  
+  
+  .jedan {
+    margin-right: 10px;
+  
+  
+  
+  
+  }
+
+
+}
+
+
+@media  screen and (max-width:1440.99px) and (min-width:1201px) {
+
+  body {
+    margin: 0;
+    width: 300px;
+    background-image: url(../slike/vecteezy_dark-blue-paper-background_1906847.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 5300px;
+    background-attachment: fixed;
+    background-position: center center;
+    z-index: 1000;
+  }
+  
+  .content {
+    width: 80%;
+    margin: 0 auto;
+  
+  }
+  
+  section h2 {
+    padding-top: 320px;
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-style: oblique;
+    color: white;
+    margin-left: 480px;
+    width: 400px;
+
+  }
+  
+  .novosti {
+    margin-top: 40px;
+    margin-left: 5%;
+    position: relative;
+    width: 100%;
+    height: 4300px;
+    border-radius: 10px;
+  }
+
+  .slika-novosti {
+    object-fit: contain;
+    height: 500px !important;
+    width: 700px !important;
+    margin-left: 60px;
+    
+  }
+  
+ .kreativna-riznica, .druzenje-s-volonterima, .erasmus-sastanak, .skola-fizike, .nosenje-maski, .povratak {
+    position: relative;
+    display: inline-block;
+    margin-top: 100px;
+    width: 100%;
+    float: none;
+
+  
+    
+  }
+
+  .kreativna-riznica {
+    height: 680px;
+  }
+  
+  .druzenje-s-volonterima {
+    height: 640px;
+    margin-left: 520px;
+  }
+  
+  .erasmus-sastanak {
+    height: 650px;
+  }
+  
+  .skola-fizike {
+    height: 640px;
+    margin-left: 520px;
+  }
+  
+  .nosenje-maski {
+    height: 710px;
+  }
+  
+  .povratak {
+    height: 610px;
+    margin-left: 520px;
+  }
+
+  .kratki-sadrzaj p {
+    margin-left: 60px;
+    width: 700px;
+    font-size: 18px;
+    
+  }
+  
+  .datum-i-nastavi {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 650px;
+    font-size: 10px;
+    height:40px;
+    border-top: 1px solid rgb(211, 211, 211);
+    border-radius: 10px;
+    font-family: sans-serif;
+    margin-left: 60px;
+    
+    
+  
+  }
+  
+  .datum {
+    
+    font-size: 12px;
+    margin-top: 2px;
+  }
+  
+  .nastavi a {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  
+  
+  
+
+  
+  .naziv {
+    margin: 0;
+    font-size: 21px;
+    text-align: center;
+    margin-left: 50px;
+    width: 700px;
+  }
+
+  .naziv-riznica {
+    margin-top: -30px;
+  }
+  
+  .naziv-volonteri {
+    margin-top: -70px;
+  }
+  
+  .naziv-sastanak {
+    margin-top: -60px;
+  }
+  
+  .naziv-fizika {
+    margin-top: -70px;
+  }
+  
+  .naziv-maske {
+    margin-top: -5px;
+  }
+  
+  .naziv-povratak {
+    margin-top: -80px;
+  }
+
+  .sljedeca-stranica {
+    width: 900px;
+    
+    margin-left: 220px;
+    font-size:15px ;
+  }
+  
+  
+  
+  .jedan {
+    margin-right: 10px;
+  
+  
+  
+  
+  }
+}
+
+@media  screen and (max-width:1600.99px) and (min-width:1441px) {
+  body {
+    height: 2600px;
+  }
+
+  .novosti {
+    height: 2400px;
+  }
+  .kreativna-riznica, .druzenje-s-volonterima, .erasmus-sastanak, .skola-fizike, .nosenje-maski, .povratak { 
+    margin-bottom: 30px;
+    height: 530px;
+  }
+
+  .sljedeca-stranica {
+    
+    
+    margin-bottom: 300px;
+    font-size:15px;
+  }
+  
+
+
+}
+
+
+

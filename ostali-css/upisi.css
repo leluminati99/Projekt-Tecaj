@@ -1,0 +1,1358 @@
+body {
+  background-image: url(../slike/vecteezy_dark-blue-paper-background_1906847.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 2400px;
+  background-attachment: fixed;
+  background-position: center center;
+  z-index: 1000;
+}
+
+
+.content {
+  width: 80%;   
+  margin: 0 auto;
+  height: 2400px;
+  /* box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5); */
+  
+}
+
+section h2 {
+  padding-top: 300px;
+  text-align: center;
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight: 100;
+  font-style: oblique;
+  color: white;
+  
+} 
+
+.upis-content{
+  margin-top: 80px;
+  margin-left: 5%;
+  position: relative;
+  /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+  width: 90%;
+  height: 1450px;
+  border-radius: 10px;
+}
+
+.odlomak {
+  color: white;
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 10px;
+  font-size: 20px;
+ }
+
+ .odlomak-prvi {
+  font-size: 23px;
+  color: rgb(5, 4, 4);
+ }
+
+ .odlomak-poveznice {
+  color: rgb(5, 4, 4);
+  font-weight: bold;
+  font-style: italic;
+
+ }
+
+ .odlomak-dodatne-informacije {
+  color: rgb(5, 4, 4);
+  font-weight: bold;
+  font-style: italic;
+ }
+
+ .odlomak span {
+  font-weight: bold;
+  font-style: italic;
+ }
+
+ .odlomak-a {
+  padding-top: 20px;
+  
+ }
+
+ .odlomak-ostali-linkovi {
+  font-weight: bold;
+  font-style: italic;
+  color: rgb(5, 4, 4);
+ }
+
+ .odlomak a {
+  text-decoration: none;
+  color: rgb(255, 189, 189);
+  /* margin-top: 10px; */
+  /* padding-left: 10px;
+  padding-right: 10px; */
+  
+  font-size: 20px;
+   }
+
+  .odlomak-poziv {
+    color: rgb(5, 4, 4);
+  font-weight: bold;
+  font-style: italic;
+ }
+  
+
+ li {
+  margin-top: 20px;
+  color: white;
+ }  
+
+ li a {
+  text-decoration: none;
+  color: rgb(255, 189, 189);
+  font-size: 20px;
+  font-weight: bold;
+ }  
+ 
+
+ /* Slike škole */
+
+ .slike-skole {
+  margin-top: 50px;
+  height: 600px;
+  width: 100%;
+  
+
+}
+
+
+ .slike-slide {
+  
+  border-radius:100px;
+  height: 700px;
+  width: 100%;
+  
+ }
+
+ @media screen and (max-width: 360.99px){
+  
+  
+  
+  body {
+    background-image: url(../slike/vecteezy_dark-blue-paper-background_1906847.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1600px;
+    background-attachment: fixed;
+    background-position: center center;
+    z-index: 1000;
+  }
+  
+  
+  .content {
+    width: 80%;   
+    margin: 0 auto;
+    height: 1600px;
+    /* box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5); */
+    
+  }
+  
+  section h2 {
+    padding-top: 300px;
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-style: oblique;
+    color: white;
+    
+  } 
+  
+  .upis-content{
+    margin-top: 80px;
+    margin-left: 5%;
+    position: relative;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+    width: 90%;
+    height: 1450px;
+    border-radius: 10px;
+  }
+  
+  .odlomak {
+    margin-top: 50px;
+    color: white;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 10px;
+    font-size: 20px;
+   }
+  
+   .odlomak-prvi {
+    font-size: 23px;
+    color: rgb(5, 4, 4);
+   }
+  
+   .odlomak-poveznice {
+    color: rgb(5, 4, 4);
+    font-weight: bold;
+    font-style: italic;
+  
+   }
+  
+   .odlomak-dodatne-informacije {
+    color: rgb(5, 4, 4);
+    font-weight: bold;
+    font-style: italic;
+   }
+  
+   .odlomak span {
+    font-weight: bold;
+    font-style: italic;
+   }
+  
+   .odlomak-a {
+    padding-top: 20px;
+    
+   }
+  
+   .odlomak-ostali-linkovi {
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(5, 4, 4);
+   }
+  
+   .odlomak a {
+    text-decoration: none;
+    color: rgb(255, 189, 189);
+    /* margin-top: 10px; */
+    /* padding-left: 10px;
+    padding-right: 10px; */
+    
+    font-size: 20px;
+     }
+  
+    .odlomak-poziv {
+      color: rgb(5, 4, 4);
+    font-weight: bold;
+    font-style: italic;
+   }
+    
+  
+   li {
+    margin-top: 20px;
+    color: white;
+   }  
+  
+   li a {
+    text-decoration: none;
+    color: rgb(255, 189, 189);
+    font-size: 20px;
+    font-weight: bold;
+   }  
+   
+  
+   /* Slike škole */
+  
+   .slike-skole {
+    object-fit: contain;
+    margin-top: 50px;
+    height: 200px !important;
+    width: 200%;
+    margin-left:10px;
+
+    
+  
+  }
+  
+  
+   .slike-slide {
+    object-fit: contain;
+    border-radius:100px;
+    height: 200px !important;
+    width: 200px !important;
+    
+   }
+
+   .footer-flex {
+   
+    margin-left: 20px;
+   }
+
+  
+
+ }
+ 
+ @media screen and (max-width: 576.99px) and (min-width:361px) {
+
+  .logo-headline {
+    margin-left: 200px;
+   }
+  
+   .logo-picture {
+    margin-left: 100px;
+   }
+  
+    .headline {
+    
+      padding-right: 120px !important;
+      /* margin-left: -200px; */
+    }
+  
+    .head-menu {
+      margin-left: 150px !important;
+      
+    }
+
+  body {
+    background-image: url(../slike/vecteezy_dark-blue-paper-background_1906847.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+    background-attachment: fixed;
+    background-position: center center;
+    z-index: 1000;
+  }
+  
+  
+  .content {
+    width: 80%;   
+    margin: 0 auto;
+    height: 1000px;
+    /* box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5); */
+    
+  }
+  
+  section h2 {
+    padding-top: 300px;
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-style: oblique;
+    color: white;
+    
+  } 
+  
+  .upis-content{
+    margin-top: 80px;
+    margin-left: 5%;
+    position: relative;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+    width: 90%;
+    height: 1450px;
+    border-radius: 10px;
+  }
+  
+  .odlomak {
+    margin-top: 50px;
+    color: white;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 10px;
+    font-size: 20px;
+   }
+  
+   .odlomak-prvi {
+    font-size: 23px;
+    color: rgb(5, 4, 4);
+   }
+  
+   .odlomak-poveznice {
+    color: rgb(5, 4, 4);
+    font-weight: bold;
+    font-style: italic;
+  
+   }
+  
+   .odlomak-dodatne-informacije {
+    color: rgb(5, 4, 4);
+    font-weight: bold;
+    font-style: italic;
+   }
+  
+   .odlomak span {
+    font-weight: bold;
+    font-style: italic;
+   }
+  
+   .odlomak-a {
+    padding-top: 20px;
+    
+   }
+  
+   .odlomak-ostali-linkovi {
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(5, 4, 4);
+   }
+  
+   .odlomak a {
+    text-decoration: none;
+    color: rgb(255, 189, 189);
+    /* margin-top: 10px; */
+    /* padding-left: 10px;
+    padding-right: 10px; */
+    
+    font-size: 20px;
+     }
+  
+    .odlomak-poziv {
+      color: rgb(5, 4, 4);
+    font-weight: bold;
+    font-style: italic;
+   }
+    
+  
+   li {
+    margin-top: 20px;
+    color: white;
+   }  
+  
+   li a {
+    text-decoration: none;
+    color: rgb(255, 189, 189);
+    font-size: 20px;
+    font-weight: bold;
+   }  
+   
+  
+   /* Slike škole */
+  
+   .slike-skole {
+    object-fit: contain;
+    margin-top: 50px;
+    height: 200px !important;
+    width: 200%;
+    margin-left:30px;
+
+    
+  
+  }
+  
+  
+   .slike-slide {
+    object-fit: contain;
+    border-radius:100px;
+    height: 400px !important;
+    width: 300px !important;
+    
+   }
+
+   .footer-flex {
+   
+    margin-left: 100px;
+   }
+   
+ 
+ }
+ 
+ @media screen and (max-width: 768.99px) and (min-width:577px){
+  .logo-headline {
+    margin-left: 420px;
+   }
+  
+   .logo-picture {
+    margin-left: 100px;
+   }
+  
+    .headline {
+    
+      padding-right: 120px !important;
+      /* margin-left: -200px; */
+    }
+  
+    .head-menu {
+      margin-left: 230px !important;
+      
+    }
+
+  
+  body {
+    background-image: url(../slike/vecteezy_dark-blue-paper-background_1906847.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+    background-attachment: fixed;
+    background-position: center center;
+    z-index: 1000;
+  }
+  
+  
+  .content {
+    width: 80%;   
+    margin: 0 auto;
+    height: 800px;
+    /* box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5); */
+    
+  }
+  
+  section h2 {
+    padding-top: 550px;
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-style: oblique;
+    color: white;
+    
+  } 
+  
+  .upis-content{
+    margin-top: 80px;
+    margin-left: 5%;
+    position: relative;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+    width: 90%;
+    height: 1450px;
+    border-radius: 10px;
+  }
+  
+  .odlomak {
+    margin-top: 50px;
+    color: white;
+    padding-top: 30px;
+    padding-left: 60px;
+    padding-right: 10px;
+    font-size: 20px;
+   }
+  
+   .odlomak-prvi {
+    font-size: 23px;
+    color: rgb(5, 4, 4);
+   }
+  
+   .odlomak-poveznice {
+    color: rgb(5, 4, 4);
+    font-weight: bold;
+    font-style: italic;
+  
+   }
+  
+   .odlomak-dodatne-informacije {
+    color: rgb(5, 4, 4);
+    font-weight: bold;
+    font-style: italic;
+   }
+  
+   .odlomak span {
+    font-weight: bold;
+    font-style: italic;
+   }
+  
+   .odlomak-a {
+    padding-top: 20px;
+    
+   }
+  
+   .odlomak-ostali-linkovi {
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(5, 4, 4);
+   }
+  
+   .odlomak a {
+    text-decoration: none;
+    color: rgb(255, 189, 189);
+    /* margin-top: 10px; */
+    /* padding-left: 10px;
+    padding-right: 10px; */
+    
+    font-size: 20px;
+     }
+  
+    .odlomak-poziv {
+      color: rgb(5, 4, 4);
+    font-weight: bold;
+    font-style: italic;
+   }
+    
+  
+   li {
+    margin-top: 20px;
+    color: white;
+   }  
+  
+   li a {
+    text-decoration: none;
+    color: rgb(255, 189, 189);
+    font-size: 20px;
+    font-weight: bold;
+   }  
+   
+  
+   /* Slike škole */
+  
+   .slike-skole {
+    object-fit: contain;
+    margin-top: 50px;
+    height: 500px !important;
+    width: 500%;
+    margin-left:-10px;
+
+    
+  
+  }
+  
+  
+   .slike-slide {
+    object-fit: contain;
+    border-radius:100px;
+    height: 500px !important;
+    width: 500px !important;
+    
+   }
+
+   .footer-flex {
+   
+    margin-left: 100px;
+   }
+     
+ 
+   
+ 
+ }
+ 
+ @media screen and (max-width: 900.99px) and (min-width:769px){
+  .logo-headline {
+    margin-left: 500px;
+   }
+  
+   .logo-picture {
+    margin-left: 100px;
+   }
+  
+    .headline {
+    
+      padding-right: 120px !important;
+      /* margin-left: -200px; */
+    }
+  
+    .head-menu {
+      margin-left: 280px !important;
+      
+    }
+  
+  body {
+    background-image: url(../slike/vecteezy_dark-blue-paper-background_1906847.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+    background-attachment: fixed;
+    background-position: center center;
+    z-index: 1000;
+  }
+  
+  
+  .content {
+    width: 80%;   
+    margin: 0 auto;
+    height: 700px;
+    /* box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5); */
+    
+  }
+  
+  section h2 {
+    padding-top: 550px;
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-style: oblique;
+    color: white;
+    
+  } 
+  
+  .upis-content{
+    margin-top: 80px;
+    margin-left: 5%;
+    position: relative;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+    width: 90%;
+    height: 1450px;
+    border-radius: 10px;
+  }
+  
+  .odlomak {
+    margin-top: 50px;
+    color: white;
+    padding-top: 30px;
+    padding-left: 60px;
+    padding-right: 10px;
+    font-size: 20px;
+   }
+  
+   .odlomak-prvi {
+    font-size: 23px;
+    color: rgb(5, 4, 4);
+   }
+  
+   .odlomak-poveznice {
+    color: rgb(5, 4, 4);
+    font-weight: bold;
+    font-style: italic;
+  
+   }
+  
+   .odlomak-dodatne-informacije {
+    color: rgb(5, 4, 4);
+    font-weight: bold;
+    font-style: italic;
+   }
+  
+   .odlomak span {
+    font-weight: bold;
+    font-style: italic;
+   }
+  
+   .odlomak-a {
+    padding-top: 20px;
+    
+   }
+  
+   .odlomak-ostali-linkovi {
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(5, 4, 4);
+   }
+  
+   .odlomak a {
+    text-decoration: none;
+    color: rgb(255, 189, 189);
+    /* margin-top: 10px; */
+    /* padding-left: 10px;
+    padding-right: 10px; */
+    
+    font-size: 20px;
+     }
+  
+    .odlomak-poziv {
+      color: rgb(5, 4, 4);
+    font-weight: bold;
+    font-style: italic;
+   }
+    
+  
+   li {
+    margin-top: 20px;
+    color: white;
+   }  
+  
+   li a {
+    text-decoration: none;
+    color: rgb(255, 189, 189);
+    font-size: 20px;
+    font-weight: bold;
+   }  
+   
+  
+   /* Slike škole */
+  
+   .slike-skole {
+    object-fit: contain;
+    margin-top: 50px;
+    height: 500px !important;
+    width: 500%;
+    margin-left:-20px;
+
+    
+  
+  }
+  
+  
+   .slike-slide {
+    object-fit: contain;
+    border-radius:100px;
+    height: 600px !important;
+    width: 600px !important;
+    
+   }
+
+   .footer-flex {
+   
+    margin-left: 170px;
+   }
+ 
+   
+ 
+ }
+ 
+ 
+ @media screen and (max-width: 1024.99px) and (min-width:901px){
+  .logo-headline {
+    margin-left: 550px;
+   }
+  
+   .logo-picture {
+    margin-left: 100px;
+   }
+  
+    .headline {
+    
+      padding-right: 120px !important;
+      /* margin-left: -200px; */
+    }
+  
+    .head-menu {
+      margin-left: 300px !important;
+      
+    }
+  
+  body {
+    background-image: url(../slike/vecteezy_dark-blue-paper-background_1906847.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+    background-attachment: fixed;
+    background-position: center center;
+    z-index: 1000;
+  }
+  
+  
+  .content {
+    width: 80%;   
+    margin: 0 auto;
+    height: 100px;
+    /* box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5); */
+    
+  }
+  
+  section h2 {
+    padding-top: 650px;
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-style: oblique;
+    color: white;
+    margin-left: -60px;
+    
+  } 
+  
+  .upis-content{
+    margin-top: 80px;
+    margin-left: 5%;
+    position: relative;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+    width: 90%;
+    height: 1450px;
+    border-radius: 10px;
+  }
+  
+  .odlomak {
+    margin-top: 50px;
+    color: white;
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 10px;
+    font-size: 20px;
+   }
+  
+   .odlomak-prvi {
+    font-size: 23px;
+    color: rgb(5, 4, 4);
+   }
+  
+   .odlomak-poveznice {
+    color: rgb(5, 4, 4);
+    font-weight: bold;
+    font-style: italic;
+  
+   }
+  
+   .odlomak-dodatne-informacije {
+    color: rgb(5, 4, 4);
+    font-weight: bold;
+    font-style: italic;
+   }
+  
+   .odlomak span {
+    font-weight: bold;
+    font-style: italic;
+   }
+  
+   .odlomak-a {
+    padding-top: 20px;
+    
+   }
+  
+   .odlomak-ostali-linkovi {
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(5, 4, 4);
+   }
+  
+   .odlomak a {
+    text-decoration: none;
+    color: rgb(255, 189, 189);
+    /* margin-top: 10px; */
+    /* padding-left: 10px;
+    padding-right: 10px; */
+    
+    font-size: 20px;
+     }
+  
+    .odlomak-poziv {
+      color: rgb(5, 4, 4);
+    font-weight: bold;
+    font-style: italic;
+   }
+    
+  
+   li {
+    margin-top: 20px;
+    color: white;
+   }  
+  
+   li a {
+    text-decoration: none;
+    color: rgb(255, 189, 189);
+    font-size: 20px;
+    font-weight: bold;
+   }  
+   
+  
+   /* Slike škole */
+  
+   .slike-skole {
+    object-fit: contain;
+    margin-top: 50px;
+    height: 500px !important;
+    width: 500%;
+    margin-left:0;
+
+    
+  
+  }
+  
+  
+   .slike-slide {
+    object-fit: contain;
+    border-radius:100px;
+    height: 650px !important;
+    width: 650px !important;
+    
+   }
+
+   .footer-flex {
+   
+    margin-left: 190px;
+   }
+   
+ 
+ }
+ 
+ @media screen and (max-width: 1200.99px) and (min-width:1025px){
+  .logo-headline {
+    margin-left: 800px;
+   }
+  
+   .logo-picture {
+    margin-left: 100px;
+   }
+  
+    .headline {
+    
+      padding-right: 120px !important;
+      /* margin-left: -200px; */
+    }
+  
+    .head-menu {
+      margin-left: -80px !important;
+      
+    }
+
+    
+  body {
+    background-image: url(../slike/vecteezy_dark-blue-paper-background_1906847.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    background-attachment: fixed;
+    background-position: center center;
+    z-index: 1000;
+  }
+  
+  
+  .content {
+    width: 80%;   
+    margin: 0 auto;
+    height: 0px;
+    /* box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5); */
+    
+  }
+  
+  section h2 {
+    padding-top: 300px;
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-style: oblique;
+    color: white;
+    margin-left: -60px;
+    
+  } 
+  
+  .upis-content{
+    margin-top: 80px;
+    margin-left: 5%;
+    position: relative;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+    width: 90%;
+    height: 1450px;
+    border-radius: 10px;
+  }
+  
+  .odlomak {
+    margin-top: 50px;
+    color: white;
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 10px;
+    font-size: 20px;
+   }
+  
+   .odlomak-prvi {
+    font-size: 23px;
+    color: rgb(5, 4, 4);
+   }
+  
+   .odlomak-poveznice {
+    color: rgb(5, 4, 4);
+    font-weight: bold;
+    font-style: italic;
+  
+   }
+  
+   .odlomak-dodatne-informacije {
+    color: rgb(5, 4, 4);
+    font-weight: bold;
+    font-style: italic;
+   }
+  
+   .odlomak span {
+    font-weight: bold;
+    font-style: italic;
+   }
+  
+   .odlomak-a {
+    padding-top: 20px;
+    
+   }
+  
+   .odlomak-ostali-linkovi {
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(5, 4, 4);
+   }
+  
+   .odlomak a {
+    text-decoration: none;
+    color: rgb(255, 189, 189);
+    /* margin-top: 10px; */
+    /* padding-left: 10px;
+    padding-right: 10px; */
+    
+    font-size: 20px;
+     }
+  
+    .odlomak-poziv {
+      color: rgb(5, 4, 4);
+    font-weight: bold;
+    font-style: italic;
+   }
+    
+  
+   li {
+    margin-top: 20px;
+    color: white;
+   }  
+  
+   li a {
+    text-decoration: none;
+    color: rgb(255, 189, 189);
+    font-size: 20px;
+    font-weight: bold;
+   }  
+   
+  
+   /* Slike škole */
+  
+   .slike-skole {
+    object-fit: contain;
+    margin-top: 50px;
+    height: 500px !important;
+    width: 500%;
+    margin-left: 60px;
+
+    
+  
+  }
+  
+  
+   .slike-slide {
+    object-fit: contain;
+    border-radius:100px;
+    height: 700px !important;
+    width: 700px !important;
+    
+   }
+
+   .footer-flex {
+    margin-top: 2900px;
+    margin-left: 280px;
+   }
+   
+   
+ 
+ }
+ 
+ @media screen and (max-width: 1440.99px) and (min-width:1201px){
+  .logo-headline {
+    margin-left: 983px;
+   }
+  
+   .logo-picture {
+    margin-left: 70px !important;
+   }
+  
+    .headline {
+    
+      padding-right: 120px !important;
+      /* margin-left: -200px; */
+    }
+  
+    .head-menu  {
+      margin-left: -500px;
+      width: 100%;
+      
+    }
+  
+  body {
+    background-image: url(../slike/vecteezy_dark-blue-paper-background_1906847.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    background-attachment: fixed;
+    background-position: center center;
+    z-index: 1000;
+  }
+  
+  
+  .content {
+    width: 80%;   
+    margin: 0 auto;
+    height: 0px;
+    /* box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5); */
+    
+  }
+  
+  section h2 {
+    padding-top: 300px;
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-style: oblique;
+    color: white;
+    margin-left: -60px;
+    
+  } 
+  
+  .upis-content{
+    margin-top: 80px;
+    margin-left: 5%;
+    position: relative;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+    width: 90%;
+    height: 1450px;
+    border-radius: 10px;
+  }
+  
+  .odlomak {
+    margin-top: 50px;
+    color: white;
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 10px;
+    font-size: 20px;
+   }
+  
+   .odlomak-prvi {
+    font-size: 23px;
+    color: rgb(5, 4, 4);
+   }
+  
+   .odlomak-poveznice {
+    color: rgb(5, 4, 4);
+    font-weight: bold;
+    font-style: italic;
+  
+   }
+  
+   .odlomak-dodatne-informacije {
+    color: rgb(5, 4, 4);
+    font-weight: bold;
+    font-style: italic;
+   }
+  
+   .odlomak span {
+    font-weight: bold;
+    font-style: italic;
+   }
+  
+   .odlomak-a {
+    padding-top: 20px;
+    
+   }
+  
+   .odlomak-ostali-linkovi {
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(5, 4, 4);
+   }
+  
+   .odlomak a {
+    text-decoration: none;
+    color: rgb(255, 189, 189);
+    /* margin-top: 10px; */
+    /* padding-left: 10px;
+    padding-right: 10px; */
+    
+    font-size: 20px;
+     }
+  
+    .odlomak-poziv {
+      color: rgb(5, 4, 4);
+    font-weight: bold;
+    font-style: italic;
+   }
+    
+  
+   li {
+    margin-top: 20px;
+    color: white;
+   }  
+  
+   li a {
+    text-decoration: none;
+    color: rgb(255, 189, 189);
+    font-size: 20px;
+    font-weight: bold;
+   }  
+   
+  
+   /* Slike škole */
+  
+   .slike-skole {
+    object-fit: contain;
+    margin-top: 50px;
+    height: 500px !important;
+    width: 500%;
+    margin-left: 60px;
+
+    
+  
+  }
+  
+  
+   .slike-slide {
+    object-fit: contain;
+    border-radius:100px;
+    height: 750px !important;
+    width: 750px !important;
+    
+   }
+
+   footer {
+    width: 100% ;
+  }
+
+  .footer-flex {
+    margin-left: 0 !important;
+    display: inline-block !important;
+    margin-top: 2950px;
+    margin-left: 280px;
+  }
+
+  .skola-info, .strucne-sluzbe, .korisni-linkovi {
+    font-size: 16px;
+    position: absolute;
+    width: 400px;
+  }
+
+  .skola-info h3, .strucne-sluzbe h3, .korisni-linkovi h3 {
+    font-size: 22px;
+  }
+
+  .skola-info  {
+    /* margin-left: -1000px; */
+    /* bottom: 140px; */
+    left: 0;
+    
+    
+  }
+
+  .h3-skola-info {
+    margin-left: 15px;
+    
+  }
+
+ .strucne-sluzbe {
+    
+    margin-left: 25px;
+    bottom: 70px;
+    left: 400px;
+  }
+
+  .h3-strucne-sluzbe {
+    margin-left: -250px;
+  
+
+  }
+
+  .korisni-linkovi {
+    margin-left: 40px;
+    padding-bottom: 50px;
+    bottom: 88px;
+    left: 830px;
+  }
+
+  .h3-korisni-linkovi {
+    margin-left: -35px;
+  }
+   
+   
+ 
+ }
+ 
+ 
+ @media screen and (max-width: 1600.99px) and (min-width:1411px){
+  .logo-headline {
+    margin-left: -30px;
+  }
+   .logo-picture {
+    margin-left: 70px !important;
+   }
+  
+    .headline {
+    
+      padding-right: 120px !important;
+      /* margin-left: -200px; */
+    }
+  
+    .head-menu  {
+      /* margin-left: -500px; */
+      width: 100%;
+      
+    }
+
+    .content {
+      height: 2100px;
+    }
+
+    
+ 
+  
+ }
+
+
+
+
+ 
+

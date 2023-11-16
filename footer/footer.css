@@ -1,0 +1,497 @@
+
+ 
+footer {
+  width: 80%;
+  height: 300px; 
+  margin: 0 auto;
+  /* background-color: rgb(36, 36, 36); */
+}
+
+.footer-flex{
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+ h3 {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0.5em;
+  font-weight: 100;
+  box-sizing: border-box;
+}
+
+.skola-info-p span, .strucne-sluzbe-p span {
+  color: rgb(185, 185, 231);
+}
+
+.h3-skola-info {
+  padding-left: 10px;
+  padding-top: 20px;
+  
+}
+
+.skola-info-p {
+  color: white;
+  font: 10px;
+  padding-left: 17px;
+  line-height: 22px;
+  font-family: sans-serif;
+}
+
+.skola-info a {
+  text-decoration: none;
+  color: rgb(255, 189, 189);
+}
+
+.h3-strucne-sluzbe {
+  text-align: center;
+  padding-top: 20px;
+  margin-left: -160px;
+}
+
+.strucne-sluzbe-p {
+  margin-left: -20px;
+  color: white;
+  font: 10px;
+  line-height: 22px;
+  font-family: sans-serif;
+}
+
+.h3-korisni-linkovi {
+  text-align: left;
+  padding-top: 20px;
+}
+
+
+.h3-korisni-linkovi {
+  padding-right: 100px;
+  margin-left: -40px;
+}
+
+.korisni-linkovi-a {
+  font: 10px;
+  line-height: 22px;
+  font-family: sans-serif;
+  margin-left: -40px;
+  padding-right: 10px;
+}
+
+.korisni-linkovi-a a {
+  text-decoration: none;
+  color: rgb(255, 189, 189);
+  display:block;
+}
+
+
+@media screen and (max-width: 360.99px){
+  .footer-flex { 
+   margin-top: 2150px;
+   display: block;
+   margin-left: 35px;
+   width: 250px;
+  }
+
+  .skola-info, .strucne-sluzbe, .korisni-linkovi {
+    font-size: 12px;
+  }
+
+  .skola-info h3, .strucne-sluzbe h3, .korisni-linkovi h3 {
+    font-size: 18px;
+  }
+
+  .skola-info  {
+    margin-left: -10px;
+    
+    
+  }
+
+  .h3-skola-info {
+    margin-left: 15px;
+  }
+
+ .strucne-sluzbe {
+    
+    margin-left: 25px;
+  }
+
+  .h3-strucne-sluzbe {
+    margin-left: -110px;
+
+  }
+
+  .korisni-linkovi {
+    margin-left: 40px;
+    padding-bottom: 50px;
+  }
+
+  .h3-korisni-linkovi {
+    margin-left: -35px;
+  }
+
+  
+
+}
+
+@media screen and (max-width: 576.99px) and (min-width:361px) {
+  .footer-flex { 
+   margin-top: 2150px;
+   display: block;
+   margin-left: 105px;
+   width: 300px;
+  }
+
+  .skola-info, .strucne-sluzbe, .korisni-linkovi {
+    font-size: 14px;
+  }
+
+  .skola-info h3, .strucne-sluzbe h3, .korisni-linkovi h3 {
+    font-size: 19px;
+  }
+
+  .skola-info  {
+    margin-left: -10px;
+    
+    
+  }
+
+  .h3-skola-info {
+    margin-left: 15px;
+  }
+
+ .strucne-sluzbe {
+    
+    margin-left: 25px;
+  }
+
+  .h3-strucne-sluzbe {
+    margin-left: -130px;
+
+  }
+
+  .korisni-linkovi {
+    margin-left: 40px;
+    padding-bottom: 50px;
+  }
+
+  .h3-korisni-linkovi {
+    margin-left: -35px;
+  }
+
+  
+
+}
+
+@media screen and (max-width: 768.99px) and (min-width:577px){
+  .footer-flex { 
+   margin-top: 2450px;
+   display: block;
+   margin-left: 175px;
+   width: 400px;
+  }
+
+  .skola-info, .strucne-sluzbe, .korisni-linkovi {
+    font-size: 15px;
+  }
+
+  .skola-info h3, .strucne-sluzbe h3, .korisni-linkovi h3 {
+    font-size: 20px;
+  }
+
+  .skola-info  {
+    margin-left: -10px;
+    
+    
+  }
+
+  .h3-skola-info {
+    margin-left: 15px;
+  }
+
+ .strucne-sluzbe {
+    
+    margin-left: 25px;
+  }
+
+  .h3-strucne-sluzbe {
+    margin-left: -240px;
+
+  }
+
+  .korisni-linkovi {
+    margin-left: 40px;
+    padding-bottom: 50px;
+  }
+
+  .h3-korisni-linkovi {
+    margin-left: -35px;
+  }
+
+  
+
+}
+
+@media screen and (max-width: 900.99px) and (min-width:769px){
+  .footer-flex { 
+   margin-top: 2450px;
+   display: block;
+   margin-left: 255px;
+   width: 500px;
+  }
+
+  .skola-info, .strucne-sluzbe, .korisni-linkovi {
+    font-size: 15px;
+  }
+
+  .skola-info h3, .strucne-sluzbe h3, .korisni-linkovi h3 {
+    font-size: 20px;
+  }
+
+  .skola-info  {
+    margin-left: -10px;
+    
+    
+  }
+
+  .h3-skola-info {
+    margin-left: 15px;
+  }
+
+ .strucne-sluzbe {
+    
+    margin-left: 25px;
+  }
+
+  .h3-strucne-sluzbe {
+    margin-left: -320px;
+
+  }
+
+  .korisni-linkovi {
+    margin-left: 40px;
+    padding-bottom: 50px;
+  }
+
+  .h3-korisni-linkovi {
+    margin-left: -35px;
+  }
+
+  
+
+}
+
+
+@media screen and (max-width: 1024.99px) and (min-width:901px){
+  .footer-flex { 
+   margin-top: 3200px;
+   display: block;
+   margin-left: 285px;
+   width: 550px;
+  }
+
+  .skola-info, .strucne-sluzbe, .korisni-linkovi {
+    font-size: 15px;
+  }
+
+  .skola-info h3, .strucne-sluzbe h3, .korisni-linkovi h3 {
+    font-size: 20px;
+  }
+
+  .skola-info  {
+    margin-left: -10px;
+    
+    
+  }
+
+  .h3-skola-info {
+    margin-left: 15px;
+  }
+
+ .strucne-sluzbe {
+    
+    margin-left: 25px;
+  }
+
+  .h3-strucne-sluzbe {
+    margin-left: -380px;
+
+  }
+
+  .korisni-linkovi {
+    margin-left: 40px;
+    padding-bottom: 50px;
+  }
+
+  .h3-korisni-linkovi {
+    margin-left: -35px;
+  }
+
+  
+
+}
+
+@media screen and (max-width: 1200.99px) and (min-width:1025px){
+  .footer-flex { 
+   margin-top: 3100px;
+   display: block;
+   margin-left: 385px;
+   width: 650px;
+  }
+
+  .skola-info, .strucne-sluzbe, .korisni-linkovi {
+    font-size: 16px;
+  }
+
+  .skola-info h3, .strucne-sluzbe h3, .korisni-linkovi h3 {
+    font-size: 22px;
+  }
+
+  .skola-info  {
+    margin-left: -10px;
+    
+    
+  }
+
+  .h3-skola-info {
+    margin-left: 15px;
+  }
+
+ .strucne-sluzbe {
+    
+    margin-left: 25px;
+  }
+
+  .h3-strucne-sluzbe {
+    margin-left: -460px;
+
+  }
+
+  .korisni-linkovi {
+    margin-left: 40px;
+    padding-bottom: 50px;
+  }
+
+  .h3-korisni-linkovi {
+    margin-left: -35px;
+  }
+
+  .korisni-linkovi p {
+    width: 200px !important
+  }
+  
+
+}
+
+@media screen and (max-width: 1440.99px) and (min-width:1201px){
+  .footer-flex { 
+    position: relative;
+   margin-top: 3100px;
+   display: flex;
+   flex-direction: row;
+   margin-left: 200px;
+   justify-content: space-between;
+
+   
+   width: 100%;
+  }
+
+  .skola-info, .strucne-sluzbe, .korisni-linkovi {
+    font-size: 16px;
+    position: absolute;
+    width: 400px;
+  }
+
+  
+
+  .skola-info h3, .strucne-sluzbe h3, .korisni-linkovi h3 {
+    font-size: 22px;
+  }
+
+  .skola-info  {
+    margin-left: -10px;
+    bottom: 140px;
+    right: 40px;;
+    
+    
+  }
+
+  .h3-skola-info {
+    margin-left: 15px;
+    
+  }
+
+ .strucne-sluzbe {
+    
+    margin-left: 25px;
+    bottom: 70px;
+    left: 300px;
+  }
+
+  .h3-strucne-sluzbe {
+    margin-left: -250px;
+  
+
+  }
+
+  .korisni-linkovi {
+    margin-left: 40px;
+    padding-bottom: 50px;
+    bottom: 88px;
+    left: 830px;
+  }
+
+  .h3-korisni-linkovi {
+    margin-left: -35px;
+  }
+
+
+  
+
+}
+
+
+@media screen and (max-width: 1600.99px) and (min-width:1411px){
+  
+
+  .skola-info, .strucne-sluzbe, .korisni-linkovi {
+    font-size: 16px;
+    margin-top: 250px;
+    width: 400px;
+  }
+
+  .skola-info h3, .strucne-sluzbe h3, .korisni-linkovi h3 {
+    font-size: 22px;
+  }
+
+  
+
+  .h3-skola-info {
+    margin-left: 15px;
+    
+  }
+
+ .strucne-sluzbe {
+    margin-right: 50px;
+    margin-left: 50px;
+  
+  }
+
+  .h3-strucne-sluzbe {
+    margin-left: -250px;
+  
+
+  }
+
+  .korisni-linkovi {
+
+    margin-right: -120px;
+    padding-bottom: 50px;
+  
+  }
+
+  .h3-korisni-linkovi {
+    margin-left: -35px;
+  }
+}
+

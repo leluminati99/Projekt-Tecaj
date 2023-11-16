@@ -1,0 +1,206 @@
+.user-log {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+  float: right;
+  margin-top: 40px;
+  margin-right: 20px;
+  font-size: 20px;
+  /* font-weight: bold; */
+  color: white;
+  text-align: center;
+
+}
+
+.odjava-div {
+  padding-top: 20px;
+
+}
+
+.odjavi-se {
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  transition: color 1s;
+}
+
+.odjavi-se:hover {
+  color: white;
+}
+
+@media screen and (max-width:360.99px) {
+
+  .user-log {
+    float: left;
+   
+  }
+
+  .user-log p {
+    font-size: 20px;
+    /* margin-left: -80px; */
+  }
+
+  .user-log span {
+    font-size: 15px;
+    /* margin-left: -80px; */
+  }
+
+  .odjavi-se {
+    /* margin-left: -80px; */
+    font-size: 15px;
+  }
+
+  
+}
+
+@media screen and (max-width:576px) and (min-width:360.01px) {
+
+  .user-log {
+    float: left;
+    padding-left: 50px;
+  }
+
+  .user-log p {
+    font-size: 17px;
+    /* margin-left: -80px; */
+  }
+
+  .user-log span {
+    font-size: 17px;
+    /* margin-left: -80px; */
+  }
+
+  .odjavi-se {
+    /* margin-left: -80px; */
+    font-size: 17px;
+  }
+
+  
+}
+
+@media screen and (max-width:768px) and  (min-width:576.01px) {
+
+  .user-log {
+    float: left;
+    padding-left: 40px;
+  }
+
+  .user-log p {
+    font-size: 17.5px;
+    /* margin-left: -80px; */
+  }
+
+  .user-log span {
+    font-size: 17.5px;
+    /* margin-left: -80px; */
+  }
+
+  .odjavi-se {
+    /* margin-left: -80px; */
+    font-size: 17.5px;
+  }
+
+  
+}
+
+@media screen and (max-width:900.99px) and  (min-width:769px) {
+
+  .user-log {
+    float: left;
+    padding-left: 40px;
+  }
+
+  .user-log p {
+    font-size: 17.5px;
+    /* margin-left: -80px; */
+  }
+
+  .user-log span {
+    font-size: 17.5px;
+    /* margin-left: -80px; */
+  }
+
+  .odjavi-se {
+    /* margin-left: -80px; */
+    font-size: 17.5px;
+  }
+}
+
+@media screen and (max-width:1024.99px) and  (min-width:901px) {
+
+  .user-log {
+    float: left;
+    padding-left: 40px;
+  }
+
+  .user-log p {
+    font-size: 17.5px;
+    /* margin-left: -80px; */
+  }
+
+  .user-log span {
+    font-size: 17.5px;
+    /* margin-left: -80px; */
+  }
+
+  .odjavi-se {
+    /* margin-left: -80px; */
+    font-size: 17.5px;
+  }
+}
+
+@media screen and (max-width:1200.99px) and  (min-width:1025px) {
+
+  .user-log {
+    float: left;
+    padding-left: 40px;
+  }
+
+  .user-log p {
+    font-size: 17.5px;
+    /* margin-left: -80px; */
+  }
+
+  .user-log span {
+    font-size: 17.5px;
+    /* margin-left: -80px; */
+  }
+
+  .odjavi-se {
+    /* margin-left: -80px; */
+    font-size: 17.5px;
+  }
+}
+
+@media screen and (max-width:1440.99px) and  (min-width:1201px) {
+
+  .user-log {
+    float: left;
+    padding-left: 40px;
+  }
+
+  .user-log p {
+    font-size: 17.5px;
+    /* margin-left: -80px; */
+  }
+
+  .user-log span {
+    font-size: 17.5px;
+    /* margin-left: -80px; */
+  }
+
+  .odjavi-se {
+    /* margin-left: -80px; */
+    font-size: 17.5px;
+  }
+}
+
+
+
+
+  
+
+
+
+
+
+

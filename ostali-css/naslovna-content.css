@@ -1,0 +1,1536 @@
+body {
+  background-image: url(../slike/vecteezy_dark-blue-paper-background_1906847.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 2200px;
+  background-attachment: fixed;
+  background-position: center center;
+  z-index: 1000;
+  
+}
+
+
+.content {
+  width: 80%;   
+  margin: 0 auto;
+  height: 2100px;
+  /* box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5); */
+  
+}
+
+section h2 {
+  padding-top: 200px;
+  text-align: center;
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight: 100;
+  font-style: oblique;
+  color: white;
+  
+} 
+
+.novosti{
+  margin-top: 40px;
+  margin-left: 5%;
+  position: relative;
+  /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+  width: 90%;
+  height: 1450px;
+  border-radius: 10px;
+}
+
+.priprema-za-natjecanje,  .spasavanje-risa, .docek-ucenika, .erasmus, .obrana-zavrsnog, .mentalno-zdravlje {
+  position: relative;
+  margin-top: 25px;
+  border-radius: 5px;
+  height: 530px;
+}
+
+.priprema-za-natjecanje {
+  position: relative;
+  display: inline-block;
+  width: 49%;
+  height: 530px;
+  /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+  border-radius: 5px;
+}
+
+.slika-novosti {
+  width: 100%;
+  height: 300px;
+  border-radius: 5px;
+}
+
+.naziv  {
+  width: 100;
+  padding: 5px 10px;
+  font-size: 23px;
+  line-height: 25px;
+  /* border-bottom: 1px solid rgb(211, 211, 211); */
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-style: oblique;
+  text-align: center;
+}
+
+.naziv a {
+  color: rgb(19, 16, 16);
+  text-decoration: none;
+}
+
+.naziv-erasmus {
+  padding-top: 17px;
+  padding-bottom:18px;
+}
+
+.naziv-docek {
+  padding-top: 17px;
+  padding-bottom:18px;
+}
+
+.naziv-ris {
+  padding-top: 17px;
+  padding-bottom:18px;
+}
+
+.naziv-obrana {
+  padding-top: 17px;
+  padding-bottom:18px;
+}
+
+.naziv-zdravlje {
+  padding-top: 17px;
+  padding-bottom:18px;
+}
+
+.kratki-sadrzaj {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  padding-top: 10px;
+  color: white;
+  
+}
+
+.kratki-sadrzaj p {
+  font-size: 20px;
+  line-height: 21px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+
+
+.spasavanje-risa {
+  position: relative;
+  display: inline-block;
+  width: 49%;
+  
+  /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+  border-radius: 5px;
+  float: right;
+}
+
+
+.docek-ucenika {
+  /* position: relative; */
+  display: inline-block;
+  width: 49%;
+
+  /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+}
+
+
+
+.erasmus {
+  /* position: relative; */
+  display: inline-block;
+  width: 49%;
+ 
+  /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+  float: right;
+}
+
+.obrana-zavrsnog {
+  /* position: relative; */
+  display: inline-block;
+  width: 49%;
+ 
+  /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+  
+}
+
+.mentalno-zdravlje {
+  /* position: relative; */
+  display: inline-block;
+  width: 49%;
+  
+  /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+  float: right;
+}
+
+
+.datum-i-nastavi {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  bottom: 0;
+  height:40px;
+  border-top: 1px solid rgb(211, 211, 211);
+  border-radius: 10px;
+  font-family: sans-serif;
+}
+
+.datum {
+  padding-top: 12px;
+  padding-left: 10px;
+  padding-right: 10px;
+  /* border-left:1px solid rgb(211, 211, 211);
+  border-right:1px solid rgb(211, 211, 211); */
+  color: white;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.datum-dogadaj {
+  
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: transparent;
+ border: none;
+  color: white;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nastavi {
+  background-color: transparent;
+  border: none;
+  /* border-left:1px solid rgb(211, 211, 211);
+  border-right:1px solid rgb(211, 211, 211); */
+  border-radius: 3px;
+  font-weight: bold;
+ 
+  
+}
+
+.nastavi a{
+  color: rgb(5, 4, 4);
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 25px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding-left: 10px;
+  padding-right: 10px;
+  transition: color 1s;
+  
+}
+
+.nastavi a:hover {
+  color: white;
+}
+
+
+
+
+
+
+.sljedeca-stranica {
+  display: flex;
+  justify-content: space-between;
+ padding-top: 150px;
+ font-family: sans-serif;
+
+}
+
+.sljedeca-stranica a {
+  text-decoration: none;
+}
+
+.broj-stranice  {
+  display: flex;
+  padding-bottom: 5px;
+}
+
+.prev {
+  
+  border-radius: 25px;
+  /* border: 1px solid rgb(160, 160, 160);
+  background-color: white; */
+  font-size: 14px;
+  color: white;
+
+  padding-right: 8px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.next {
+  border-radius: 25px;
+  /* border: 1px solid rgb(160, 160, 160);
+  background-color: white; */
+  font-size: 14px;
+  color: rgb(5, 4, 4);
+  transition: color 1s;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.next:hover {
+  color: white;
+}
+
+.jedan {
+  color: white;
+  font-size: 20px;
+  border-radius: 3px;
+}
+
+.dva {
+  color: rgb(5, 4, 4);
+  font-size: 20px;
+  margin-left: 2px;
+  transition: color 1s;
+}
+
+.dva:hover {
+  
+  color:white;
+  
+}
+
+.datum-a {
+  text-decoration: none;
+  color: white;
+  transition: color 1s;
+}
+
+.datum-a:hover {
+  color: rgb(5, 4, 4);
+  
+}
+
+@media screen and (max-width: 360.99px) {
+
+  body {
+    margin: 0;
+    width: 300px;
+    background-image: url(../slike/vecteezy_dark-blue-paper-background_1906847.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 5000px;
+    background-attachment: fixed;
+    background-position: center center;
+    z-index: 1000;
+  }
+  
+  .content {
+    width: 80%;
+    margin: 0 auto;
+  
+  }
+  
+  section h2 {
+    padding-top: 200px;
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-style: oblique;
+    color: white;
+
+  }
+  
+  .novosti {
+    margin-top: 40px;
+    margin-left: 5%;
+    position: relative;
+    width: 100%;
+    height: 4000px;
+    border-radius: 10px;
+  }
+  
+  .priprema-za-natjecanje, .spasavanje-risa, .docek-ucenika, .erasmus, .obrana-zavrsnog, .mentalno-zdravlje {
+    position: relative;
+    display: block;
+    margin-top: 100px;
+    /* margin-left: 10px; */
+    width: 100%;
+    float: none;
+
+  
+    
+  }
+
+  .priprema-za-natjecanje {
+    height: 540px;
+  }
+  
+  .spasavanje-risa {
+    height: 540px;
+  }
+  
+  .docek-ucenika {
+    height: 520px;
+  }
+  
+  .erasmus {
+    height: 540px;
+  }
+  
+  .obrana-zavrsnog {
+    height: 470px;
+  }
+  
+  .mentalno-zdravlje {
+    height: 495px;
+  }
+
+  .kratki-sadrzaj p {
+    margin-left: 15px;
+    font-size: 18px;
+  }
+  
+  .datum-i-nastavi {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 10px;
+    height:40px;
+    border-top: 1px solid rgb(211, 211, 211);
+    border-radius: 10px;
+    font-family: sans-serif;
+    
+  
+  }
+  
+  .datum {
+    font-size: 12px;
+    margin-top: 2px;
+  }
+  
+  .nastavi a {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  
+  
+  
+  .slika-novosti {
+    object-fit: contain;
+    height: 130px !important;
+    
+  }
+  
+  .naziv {
+    margin: 0;
+    font-size: 21px;
+    text-align: center;
+  }
+
+  .sljedeca-stranica {
+    width: 95%;
+    
+    margin-left: 20px;
+    font-size:15px ;
+  }
+  
+  
+  
+  .jedan {
+    margin-right: 10px;
+  
+  
+  
+  
+  }
+}
+
+
+@media  screen and (max-width:576.99px) and (min-width:361px) {
+
+  
+  body {
+    margin: 0;
+    width: 300px;
+    background-image: url(../slike/vecteezy_dark-blue-paper-background_1906847.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 5200px;
+    background-attachment: fixed;
+    background-position: center center;
+    z-index: 1000;
+  }
+  
+  .content {
+    width: 80%;
+    margin: 0 auto;
+  
+  }
+  
+  section h2 {
+    padding-top: 250px;
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-style: oblique;
+    color: white;
+    margin-left: 110px;
+    width: 300px;
+  }
+  
+  .novosti {
+    margin-top: 40px;
+    margin-left: 5%;
+    position: relative;
+    width: 100%;
+    height: 4200px;
+    border-radius: 10px;
+  }
+
+ 
+    
+  .slika-novosti {
+    object-fit: contain;
+    height: 300px !important;
+    width: 300px !important;
+    margin-left: 60px;
+    
+  }
+  
+  .priprema-za-natjecanje, .spasavanje-risa, .docek-ucenika, .erasmus, .obrana-zavrsnog, .mentalno-zdravlje {
+    position: relative;
+    display: block;
+    margin-top: 100px;
+    margin-left: 40px;
+    width: 100%;
+    float: none;
+
+  
+    
+  }
+
+  .priprema-za-natjecanje {
+    height: 500px;
+  }
+  
+  .spasavanje-risa {
+    height: 540px;
+  }
+  
+  .docek-ucenika {
+    height: 510px;
+  }
+  
+  .erasmus {
+    height: 520px;
+  }
+  
+  .obrana-zavrsnog {
+    height: 510px;
+  }
+  
+  .mentalno-zdravlje {
+    height: 490px;
+  }
+
+  .kratki-sadrzaj p {
+    
+    font-size: 18px;
+    width: 400px;
+  }
+  
+  .datum-i-nastavi {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    font-size: 10px;
+    height:40px;
+    border-top: 1px solid rgb(211, 211, 211);
+    border-radius: 10px;
+    font-family: sans-serif;
+
+    
+  
+  }
+  
+  .datum {
+    font-size: 12px;
+    margin-top: 2px;
+  }
+  
+  .nastavi a {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  
+  
+  .naziv {
+    margin: 0;
+    font-size: 21px;
+    text-align: center;
+    /* margin-left: -5px; */
+    width: 400px;
+    
+  }
+
+  .naziv-natjecanje {
+    margin-top: -50px;
+  }
+
+  .naziv-ris {
+    margin-top: -20px;
+  }
+
+  .naziv-docek {
+    margin-top: -45px;
+  }
+
+  .naziv-erasmus {
+    margin-top: -40px;
+  }
+
+  .naziv-obrana {
+    margin-top: -25px;
+  }
+
+  .naziv-zdravlje {
+    margin-top: -50px;
+  }
+
+
+
+  .sljedeca-stranica {
+    width: 400px;
+    
+    margin-left: 40px;
+    font-size:15px ;
+  }
+  
+  
+  
+  .jedan {
+    margin-right: 10px;
+  
+  
+  
+  
+  }
+}
+
+@media  screen and (max-width:768.99px) and (min-width:577px) {
+
+  body {
+    margin: 0;
+    width: 300px;
+    background-image: url(../slike/vecteezy_dark-blue-paper-background_1906847.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 5300px;
+    background-attachment: fixed;
+    background-position: center center;
+    z-index: 1000;
+  }
+  
+  .content {
+    width: 80%;
+    margin: 0 auto;
+  
+  }
+  
+  section h2 {
+    padding-top: 530px;
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-style: oblique;
+    color: white;
+    margin-left: 200px;
+    width: 300px;
+  }
+  
+  .novosti {
+    margin-top: 40px;
+    margin-left: 5%;
+    position: relative;
+    width: 100%;
+    height: 4300px;
+    border-radius: 10px;
+  }
+
+  .slika-novosti {
+    object-fit: contain;
+    height: 130px !important;
+    
+  } .slika-novosti {
+    object-fit: contain;
+    height: 300px !important;
+    width: 400px;
+    
+  }
+  
+  .priprema-za-natjecanje, .spasavanje-risa, .docek-ucenika, .erasmus, .obrana-zavrsnog, .mentalno-zdravlje {
+    position: relative;
+    display: block;
+    margin-top: 100px;
+    margin-left: 130px;
+    width: 100%;
+    float: none;
+
+  
+    
+  }
+
+  .priprema-za-natjecanje {
+    height: 510px;
+  }
+  
+  .spasavanje-risa {
+    height: 540px;
+  }
+  
+  .docek-ucenika {
+    height: 510px;
+  }
+  
+  .erasmus {
+    height: 520px;
+  }
+  
+  .obrana-zavrsnog {
+    height: 510px;
+  }
+  
+  .mentalno-zdravlje {
+    height: 490px;
+  }
+
+  .kratki-sadrzaj p {
+    margin-left: 5px;
+    font-size: 18px;
+    width: 400px;
+  }
+  
+  .datum-i-nastavi {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    font-size: 10px;
+    height:40px;
+    border-top: 1px solid rgb(211, 211, 211);
+    border-radius: 10px;
+    font-family: sans-serif;
+
+    
+  
+  }
+  
+  .datum {
+    font-size: 12px;
+    margin-top: 2px;
+  }
+  
+  .nastavi a {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  
+  
+  .naziv {
+    margin: 0;
+    font-size: 21px;
+    text-align: center;
+    margin-left: -5px;
+    width: 400px;
+    
+  }
+
+  .naziv-natjecanje {
+    margin-top: -50px;
+  }
+
+  .naziv-ris {
+    margin-top: -20px;
+  }
+
+  .naziv-docek {
+    margin-top: -45px;
+  }
+
+  .naziv-erasmus {
+    margin-top: -40px;
+  }
+
+  .naziv-obrana {
+    margin-top: -25px;
+  }
+
+  .naziv-zdravlje {
+    margin-top: -50px;
+  }
+
+
+
+  .sljedeca-stranica {
+    width: 500px;
+    
+    margin-left: 80px;
+    font-size:15px ;
+  }
+  
+  
+  
+  .jedan {
+    margin-right: 10px;
+  
+  
+  
+  
+  }
+}
+
+@media  screen and (max-width:900.99px) and (min-width:769px) {
+
+  body {
+    margin: 0;
+    width: 300px;
+    background-image: url(../slike/vecteezy_dark-blue-paper-background_1906847.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 5300px;
+    background-attachment: fixed;
+    background-position: center center;
+    z-index: 1000;
+  }
+  
+  .content {
+    width: 80%;
+    margin: 0 auto;
+  
+  }
+  
+  section h2 {
+    padding-top: 550px;
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-style: oblique;
+    color: white;
+    margin-left: 260px;
+    width: 300px;
+  }
+  
+  .novosti {
+    margin-top: 40px;
+    margin-left: 5%;
+    position: relative;
+    width: 100%;
+    height: 4300px;
+    border-radius: 10px;
+  }
+
+   .slika-novosti  {
+    margin-left: 18px;
+    object-fit: contain;
+    height: 300px !important;
+    width: 500px;
+    
+  }
+
+  
+  
+  .priprema-za-natjecanje, .spasavanje-risa, .docek-ucenika, .erasmus, .obrana-zavrsnog, .mentalno-zdravlje {
+    position: relative;
+    display: block;
+    margin-top: 100px;
+    margin-left: 130px;
+    width: 100%;
+    float: none;
+
+  
+    
+  }
+
+  .priprema-za-natjecanje {
+    height: 510px;
+  }
+  
+  .spasavanje-risa {
+    height: 540px;
+  }
+  
+  .docek-ucenika {
+    height: 510px;
+  }
+  
+  .erasmus {
+    height: 520px;
+  }
+  
+  .obrana-zavrsnog {
+    height: 510px;
+  }
+  
+  .mentalno-zdravlje {
+    height: 490px;
+  }
+
+  .kratki-sadrzaj p {
+    margin-left: 10px;
+    font-size: 18px;
+    width: 500px;
+  }
+  
+  .datum-i-nastavi {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    margin-left: 10px;
+    font-size: 10px;
+    height:40px;
+    border-top: 1px solid rgb(211, 211, 211);
+    border-radius: 10px;
+    font-family: sans-serif;
+
+    
+  
+  }
+  
+  .datum {
+    font-size: 12px;
+    margin-top: 2px;
+  }
+  
+  .nastavi a {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  
+  
+  .naziv {
+    margin: 0;
+    font-size: 21px;
+    text-align: center;
+    margin-left: 50px;
+    width: 400px;
+    
+  }
+
+  .naziv-natjecanje {
+    margin-top: -30px;
+  }
+
+  .naziv-ris {
+    margin-top: -10px;
+  }
+
+  .naziv-docek {
+    margin-top: -25px;
+  }
+
+  .naziv-erasmus {
+    margin-top: -20px;
+  }
+
+  .naziv-obrana {
+    margin-top: -10px;
+  }
+
+  .naziv-zdravlje {
+    margin-top: -30px;
+  }
+
+
+
+  .sljedeca-stranica {
+    width: 600px;
+    
+    margin-left: 100px;
+    font-size:15px ;
+  }
+  
+  
+  
+  .jedan {
+    margin-right: 10px;
+  
+  
+  
+  
+  }
+}
+
+
+@media  screen and (max-width:1024.99px) and (min-width:901px) {
+
+  body {
+    margin: 0;
+    width: 300px;
+    background-image: url(../slike/vecteezy_dark-blue-paper-background_1906847.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 5300px;
+    background-attachment: fixed;
+    background-position: center center;
+    z-index: 1000;
+  }
+  
+  .content {
+    width: 80%;
+    margin: 0 auto;
+  
+  }
+  
+  section h2 {
+    padding-top: 650px;
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-style: oblique;
+    color: white;
+    margin-left: 320px;
+    width: 300px;
+  }
+  
+  .novosti {
+    margin-top: 60px;
+    margin-left: 5%;
+    position: relative;
+    width: 100%;
+    height: 4300px;
+    border-radius: 10px;
+  }
+
+   .slika-novosti  {
+    margin-left: 18px;
+    object-fit: contain;
+    height: 400px !important;
+    width: 550px;
+    
+  }
+
+  
+  
+  .priprema-za-natjecanje, .spasavanje-risa, .docek-ucenika, .erasmus, .obrana-zavrsnog, .mentalno-zdravlje {
+    position: relative;
+    display: block;
+    margin-top: 100px;
+    margin-left: 170px;
+    width: 100%;
+    float: none;
+
+  
+    
+  }
+
+  .priprema-za-natjecanje {
+    height: 600px;
+  }
+  
+  .spasavanje-risa {
+    height: 630px;
+  }
+  
+  .docek-ucenika {
+    height: 590px;
+  }
+  
+  .erasmus {
+    height: 600px;
+  }
+  
+  .obrana-zavrsnog {
+    height: 605px;
+  }
+  
+  .mentalno-zdravlje {
+    height: 585px;
+  }
+
+  .kratki-sadrzaj p {
+    margin-left: 20px;
+    font-size: 18px;
+    width: 550px;
+  }
+  
+  .datum-i-nastavi {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+    margin-left: 10px;
+    font-size: 10px;
+    height:40px;
+    border-top: 1px solid rgb(211, 211, 211);
+    border-radius: 10px;
+    font-family: sans-serif;
+
+    
+  
+  }
+  
+  .datum {
+    font-size: 14px;
+    margin-top: 2px;
+  }
+  
+  .nastavi a {
+    margin-top: 10px;
+    font-size: 22px;
+  }
+  
+  
+  .naziv {
+    margin: 0;
+    font-size: 21px;
+    text-align: center;
+    margin-left: 40px;
+    width: 500px;
+    
+  }
+
+  .naziv-natjecanje {
+    margin-top: -60px;
+    
+  }
+
+  .naziv-ris {
+    margin-top: -15px;
+  }
+
+  .naziv-docek {
+    margin-top: -45px;
+  }
+
+  .naziv-erasmus {
+    margin-top: -40px;
+  }
+
+  .naziv-obrana {
+    margin-top: -15px;
+  }
+
+  .naziv-zdravlje {
+    margin-top: -55px;
+  }
+
+
+
+  .sljedeca-stranica {
+    width: 650px;
+    
+    margin-left: 130px;
+    font-size:15px;
+  }
+  
+  
+  
+  .jedan {
+    margin-right: 10px;
+  
+  
+  
+  
+  }
+}
+
+@media  screen and (max-width:1200.99px) and (min-width:1025px) {
+
+  body {
+    margin: 0;
+    width: 300px;
+    background-image: url(../slike/vecteezy_dark-blue-paper-background_1906847.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 5300px;
+    background-attachment: fixed;
+    background-position: center center;
+    z-index: 1000;
+  }
+  
+  .content {
+    width: 80%;
+    margin: 0 auto;
+  
+  }
+  
+  section h2 {
+    padding-top: 300px;
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-style: oblique;
+    color: white;
+    margin-left: 370px;
+    width: 400px;
+  }
+  
+  .novosti {
+    margin-top: 60px;
+    margin-left: 5%;
+    position: relative;
+    width: 100%;
+    height: 4300px;
+    border-radius: 10px;
+  }
+
+   .slika-novosti  {
+    margin-left: 60px;
+    object-fit: contain;
+    height: 500px !important;
+    width: 650px;
+    
+  }
+
+  
+  
+  .priprema-za-natjecanje, .spasavanje-risa, .docek-ucenika, .erasmus, .obrana-zavrsnog, .mentalno-zdravlje {
+    position: relative;
+    display: block;
+    margin-top: 100px;
+    margin-left: 170px;
+    width: 100%;
+    float: none;
+
+  
+    
+  }
+
+  .priprema-za-natjecanje {
+    height: 640px;
+  }
+  
+  .spasavanje-risa {
+    height: 680px;
+  }
+  
+  .docek-ucenika {
+    height: 650px;
+  }
+  
+  .erasmus {
+    height: 650px;
+  }
+  
+  .obrana-zavrsnog {
+    height: 655px;
+  }
+  
+  .mentalno-zdravlje {
+    height: 615px;
+  }
+
+  .kratki-sadrzaj p {
+    margin-left: 60px;
+    font-size: 18px;
+    width: 650px;
+  }
+  
+  .datum-i-nastavi {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 650px;
+    margin-left: 60px;
+    font-size: 10px;
+    height:40px;
+    border-top: 1px solid rgb(211, 211, 211);
+    border-radius: 10px;
+    font-family: sans-serif;
+
+    
+  
+  }
+  
+  .datum {
+    font-size: 14px;
+    margin-top: 2px;
+  }
+  
+  .nastavi a {
+    margin-top: 10px;
+    font-size: 22px;
+  }
+  
+  
+  .naziv {
+    margin: 0;
+    font-size: 21px;
+    text-align: center;
+    margin-left: 50px;
+    width: 650px;
+    
+  }
+
+  .naziv-natjecanje {
+    margin-top: -80px;
+    
+  }
+
+  .naziv-ris {
+    margin-top: -35px;
+  }
+
+  .naziv-docek {
+    margin-top: -70px;
+  }
+
+  .naziv-erasmus {
+    margin-top: -70px;
+  }
+
+  .naziv-obrana {
+    margin-top: -35px;
+  }
+
+  .naziv-zdravlje {
+    margin-top: -85px;
+  }
+
+
+
+  .sljedeca-stranica {
+    width: 750px;
+    
+    margin-left: 180px;
+    font-size:15px;
+  }
+  
+  
+  
+  .jedan {
+    margin-right: 10px;
+  
+  
+  
+  
+  }
+}
+
+
+@media  screen and (max-width:1440.99px) and (min-width:1201px) {
+
+  body {
+    margin: 0;
+    width: 300px;
+    background-image: url(../slike/vecteezy_dark-blue-paper-background_1906847.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 5300px;
+    background-attachment: fixed;
+    background-position: center center;
+    z-index: 1000;
+  }
+  
+  .content {
+    width: 80%;
+    margin: 0 auto;
+  
+  }
+  
+  section h2 {
+    padding-top: 320px;
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-style: oblique;
+    color: white;
+    margin-left: 480px;
+    width: 400px;
+  }
+  
+  .novosti {
+    margin-top: 40px;
+    margin-left: 5%;
+    position: relative;
+    width: 100%;
+    height: 4300px;
+    border-radius: 10px;
+  }
+
+   .slika-novosti  {
+    margin-left: 60px;
+    object-fit: contain;
+    height: 500px !important;
+    width: 700px;
+    
+  }
+
+  
+  
+  .priprema-za-natjecanje, .spasavanje-risa, .docek-ucenika, .erasmus, .obrana-zavrsnog, .mentalno-zdravlje {
+    position: relative;
+    display: inline-block;
+  
+    margin-top: 100px;
+   
+    width: 49%;
+    float: none;
+
+  
+    
+  }
+
+  .priprema-za-natjecanje {
+    height: 610px;
+    
+   
+  }
+  
+  .spasavanje-risa {
+    height: 670px;
+   margin-left: 520px;
+
+  }
+  
+  .docek-ucenika {
+    height: 635px;
+    
+  }
+  
+  .erasmus {
+    height: 630px;
+    margin-left: 520px;
+  }
+  
+  .obrana-zavrsnog {
+    height: 655px;
+    
+  }
+  
+  .mentalno-zdravlje {
+    height: 615px;
+    margin-left:520px ;
+  }
+
+  .kratki-sadrzaj p {
+    margin-left: 60px;
+    font-size: 18px;
+    width: 700px;
+  }
+  
+  .datum-i-nastavi {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    margin-left: 60px;
+    font-size: 10px;
+    height:40px;
+    border-top: 1px solid rgb(211, 211, 211);
+    border-radius: 10px;
+    font-family: sans-serif;
+
+    
+  
+  }
+  
+  .datum {
+    font-size: 14px;
+    margin-top: 2px;
+  }
+  
+  .nastavi a {
+    margin-top: 10px;
+    font-size: 22px;
+  }
+  
+  
+  .naziv {
+    margin: 0;
+    font-size: 21px;
+    text-align: center;
+    margin-left: 50px;
+    width: 700px;
+    
+  }
+
+  .naziv-natjecanje {
+    margin-top: -80px;
+    
+  }
+
+  .naziv-ris {
+    margin-top: -25px;
+  }
+
+  .naziv-docek {
+    margin-top: -60px;
+  }
+
+  .naziv-erasmus {
+    margin-top: -60px;
+  }
+
+  .naziv-obrana {
+    margin-top: -30px;
+  }
+
+  .naziv-zdravlje {
+    margin-top: -78px;
+  }
+
+
+
+  .sljedeca-stranica {
+    width: 900px;
+    
+    margin-left: 220px;
+    font-size:15px;
+  }
+  
+  
+  
+  .jedan {
+    margin-right: 10px;
+  
+  
+  
+  
+  }
+}
+
+@media  screen and (max-width:1600.99px) and (min-width:1441px) {
+  body {
+    height: 2600px;
+  }
+
+  .novosti {
+    height: 2400px;
+  }
+  .priprema-za-natjecanje, .spasavanje-risa, .docek-ucenika, .erasmus, .obrana-zavrsnog, .mentalno-zdravlje {
+    margin-bottom: 30px;
+    height: 550px
+  }
+
+  .obrana-zavrsnog {
+    height: 525;
+  }
+
+  .mentalno-zdravlje {
+    height: 525;
+  }
+
+  
+  
+
+  .sljedeca-stranica {
+    
+    
+    margin-bottom: 300px;
+    font-size:15px;
+  }
+  
+
+
+}
